@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LSPD – Učení + Test</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="wrap">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div class="brandText">
+          <h1>LSPD Trénink</h1>
+          <p>Učení + Test</p>
+        </div>
+      </div>
+
+      <nav class="tabs" aria-label="Navigace">
+        <button class="tab active" id="tabStudy" type="button">Učení</button>
+        <button class="tab" id="tabTest" type="button">Test</button>
+      </nav>
+    </header>
+
+    <!-- STUDY -->
+    <section class="panel active" id="panelStudy">
+      <div class="card">
+        <div class="cardTitle">
+          <div>
+            <h2>Učení</h2>
+            <p class="sub">Hover odhalí význam. Vyhledávání + heatmapa chyb + náhodná kontrola.</p>
+          </div>
+        </div>
+
+        <div class="row2">
+          <input class="input" id="studySearch" placeholder="Hledej… (např. únos, 10-32, sirény)" />
+          <div class="btnRow">
+            <button class="btn" id="btnReveal2s" type="button">Odhalit všechny na 2s</button>
+            <button class="btn dangerBtn" id="btnResetAll" type="button"
+              title="Smaže uložená data (hodnocení + umí/neumí + statistiky)">Reset dat</button>
+          </div>
+        </div>
+
+        <div class="head">
+          <div>Kód</div><div>Význam</div><div>Perfektně</div><div>Lehce</div><div>Vůbec</div>
+        </div>
+
+        <div id="studyList"></div>
+
+        <div class="stats">
+          <div class="stat">✔️ Perfektně: <b id="p">0</b></div>
+          <div class="stat">➖ Lehce: <b id="l">0</b></div>
+          <div class="stat">❌ Vůbec: <b id="v">0</b></div>
+          <div class="stat">✅ UMÍ: <b id="uCnt">0</b></div>
+          <div class="stat">⛔ NEUMÍ: <b id="nCnt">0</b></div>
+          <div class="stat">❔ NEZNÁM: <b id="kCnt">0</b></div>
+        </div>
+
+        <div class="heatWrap">
+          <div class="heatHead">
+            <div class="title">Heatmapa chyb</div>
+            <div class="hint">Klikni pill → skočí na řádek. Barva = chybovost.</div>
+          </div>
+          <div class="heatGrid" id="heatGrid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEST -->
+    <section class="panel" id="panelTest">
+      <div class="card">
+        <div class="cardTitle">
+          <div>
+            <h2>Test</h2>
+            <p class="sub">Klikni odpověď. „Další“ bez odpovědi = automaticky špatně (v Exam režimu vypnuté).</p>
+          </div>
+        </div>
+
+        <div class="settings">
+          <div class="settingsGrid">
+            <div class="field">
+              <label>Režim</label>
+              <select class="select" id="selMode">
+                <option value="learning">Learning (feedback + auto-next)</option>
+                <option value="hardcore">Hardcore (bez feedbacku)</option>
+                <option value="exam">Exam (20 otázek, žádný skip)</option>
+                <option value="speed">Speed Drill (měří reakci)</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label>Směr</label>
+              <select class="select" id="selDir">
+                <option value="code2meaning">Kód → význam</option>
+                <option value="meaning2code">Význam → kód</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label>Scénář / Rádio</label>
+              <select class="select" id="selScenario">
+                <option value="plain">Normální</option>
+                <option value="scenario">Scénář (situace)</option>
+                <option value="radio">Rádio (hláška)</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label>Časovač</label>
+              <select class="select" id="selTimer">
+                <option value="off">Vypnuto</option>
+                <option value="8">8 s</option>
+                <option value="6">6 s</option>
+                <option value="4">4 s</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label>Extra</label>
+              <div class="toggleRow">
+                <label class="toggle" title="Testuje jen to, co často kazíš / nedávno špatně">
+                  <input type="checkbox" id="cbWeakOnly" />
+                  <span><b>Slabiny</b> (19)</span>
+                </label>
+                <label class="toggle" title="Dává častěji to, co kazíš (adaptivní vážení)">
+                  <input type="checkbox" id="cbAdaptive" checked />
+                  <span><b>Adaptive</b> (14)</span>
+                </label>
+                <label class="toggle" title="Stres vizuálně (bez zvuku)">
+                  <input type="checkbox" id="cbStress" />
+                  <span><b>Stress</b> (15)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <label>Opakování</label>
+              <div class="toggleRow">
+                <label class="toggle" title="Když něco pokazíš, vrátí se to znovu za pár otázek">
+                  <input type="checkbox" id="cbSRS" checked />
+                  <span><b>SRS</b> (2)</span>
+                </label>
+                <label class="toggle" title="Střídá směr (kód→význam / význam→kód)">
+                  <input type="checkbox" id="cbFlip" />
+                  <span><b>Střídat směr</b> (6)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <label>Akce</label>
+              <div class="toggleRow">
+                <button class="btn" id="btnRestart" type="button">Restart</button>
+                <button class="btn" id="btnNext" type="button">Další</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testTop">
+          <div class="chips">
+            <div class="chipRow">
+              <div class="chip all on" id="chipAll"><span class="dot all"></span>Vše</div>
+              <div class="chip p" id="chipP"><span class="dot ok"></span>Perfektně</div>
+              <div class="chip l on" id="chipL"><span class="dot warn"></span>Lehce</div>
+              <div class="chip v on" id="chipV"><span class="dot bad"></span>Vůbec</div>
+            </div>
+
+            <div class="chipRow">
+              <div class="chip u on" id="chipKnow"><span class="dot u"></span>UMÍ</div>
+              <div class="chip n on" id="chipDont"><span class="dot n"></span>NEUMÍ</div>
+              <div class="chip k on" id="chipUnk"><span class="dot k"></span>NEZNÁM</div>
+            </div>
+
+            <div class="chipRow">
+              <div class="chip t on" id="chip10"><span class="dot t"></span>10-kódy</div>
+              <div class="chip s on" id="chipState"><span class="dot s"></span>Kód-stavy</div>
+            </div>
+          </div>
+
+          <div class="metaRow">
+            <div class="badge">Otázka: <b id="qNum">0</b>/<b id="qTotal">0</b></div>
+            <div class="badge">Skóre: <b id="scoreOk">0</b>/<b id="scoreAll">0</b></div>
+            <div class="badge">RT: <b id="rtAvg">–</b></div>
+          </div>
+        </div>
+
+        <div class="progress"><div class="bar" id="bar"></div></div>
+        <div id="testArea"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span class="fDot" aria-hidden="true"></span>
+      <span>Made by</span>
+      <span class="tag">SudetlandSwager</span>
+      <span>•</span>
+      <span class="tag">Discord: sudetlandswager</span>
+    </footer>
+  </div>
+
+  <!-- Pop quiz overlay (11) -->
+  <div class="overlay" id="overlay" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-label="Rychlá kontrola">
+      <div class="modalHead">
+        <div>
+          <h3>Rychlá kontrola</h3>
+          <p>Mini otázka při učení (zavře se po odpovědi)</p>
+        </div>
+        <button class="btn" id="btnCloseOverlay" type="button" title="Zavřít">✕</button>
+      </div>
+      <div id="overlayBody"></div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
