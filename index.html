@@ -1,270 +1,130 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="cs">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>LSPD – Trénink</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LSPD Training Terminal - Valtor Edition</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Inter:wght@500;700;800;900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Rajdhani:wght@500;600;700&display=swap"
     rel="stylesheet">
-
-  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 </head>
 
 <body>
-  <div class="wrap">
-    <header class="topbar" id="topbar">
-      <div class="brand">
-        <div class="logo" aria-hidden="true"></div>
-        <div class="brandText">
-          <h1>LSPD Trénink</h1>
-          <p>Los Santos Police Department</p>
-        </div>
-      </div>
-
-      <nav class="tabs" aria-label="Navigace">
-        <button class="tab active" id="tabStudy" type="button">
-          <span class="tabIcon">📖</span> Učení
-        </button>
-        <button class="tab" id="tabTest" type="button">
-          <span class="tabIcon">🎯</span> Test
-        </button>
-        <button class="tab" id="tabAnalysis" type="button">
-          <span class="tabIcon">📊</span> Analýza
-        </button>
-      </nav>
-
-      <div class="topbarRight">
-        <div class="statusDot" title="Systém aktivní"></div>
-        <span class="statusLabel">ONLINE</span>
-      </div>
-    </header>
-
-    <!-- STUDY -->
-    <section class="panel active" id="panelStudy">
-      <div class="card gsap-card">
-        <div class="cardTitle">
-          <div>
-            <h2>Učení</h2>
-            <p class="sub">Hover odhalí význam. Vyhledávání + heatmapa chyb + náhodná kontrola.</p>
-          </div>
-        </div>
-
-        <div class="row2">
-          <input class="input" id="studySearch" placeholder="Hledej… (např. únos, 10-32, sirény)" />
-          <div class="btnRow">
-            <button class="btn revealToggleBtn" id="btnRevealToggle" type="button">
-              <span id="revealIcon">👁</span>
-              <span id="revealLabel">Odhalit vše</span>
-            </button>
-            <button class="btn dangerBtn" id="btnResetAll" type="button"
-              title="Smaže uložená data (hodnocení + umí/neumí + statistiky)">Reset dat</button>
-          </div>
-        </div>
-
-        <div class="head gsap-stagger">
-          <div>Kód</div>
-          <div>Význam</div>
-          <div>Perfektně</div>
-          <div>Lehce</div>
-          <div>Vůbec</div>
-        </div>
-
-        <div id="studyList"></div>
-
-        <div class="stats">
-          <div class="stat gsap-stagger">✔️ Perfektně: <b id="p">0</b></div>
-          <div class="stat gsap-stagger">➖ Lehce: <b id="l">0</b></div>
-          <div class="stat gsap-stagger">❌ Vůbec: <b id="v">0</b></div>
-          <div class="stat gsap-stagger">✅ UMÍ: <b id="uCnt">0</b></div>
-          <div class="stat gsap-stagger">⛔ NEUMÍ: <b id="nCnt">0</b></div>
-          <div class="stat gsap-stagger">❔ NEZNÁM: <b id="kCnt">0</b></div>
-        </div>
-
-        <div class="heatWrap gsap-card">
-          <div class="heatHead">
-            <div class="title">Heatmapa chyb</div>
-            <div class="hint">Klikni pill → skočí na řádek. Barva = chybovost.</div>
-          </div>
-          <div class="heatGrid" id="heatGrid"></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- TEST -->
-    <section class="panel" id="panelTest">
-      <div class="card gsap-card">
-        <div class="cardTitle">
-          <div>
-            <h2>Test</h2>
-            <p class="sub">Klikni odpověď. „Další" bez odpovědi = automaticky špatně (v Exam režimu vypnuté).</p>
-          </div>
-        </div>
-
-        <div class="settings gsap-card">
-          <div class="settingsGrid">
-            <div class="field">
-              <label>Režim</label>
-              <select class="select" id="selMode">
-                <option value="learning">Learning (feedback + auto-next)</option>
-                <option value="hardcore">Hardcore (bez feedbacku)</option>
-                <option value="exam">Exam (20 otázek, žádný skip)</option>
-                <option value="speed">Speed Drill (měří reakci)</option>
-              </select>
-            </div>
-
-            <div class="field">
-              <label>Směr</label>
-              <select class="select" id="selDir">
-                <option value="code2meaning">Kód → význam</option>
-                <option value="meaning2code">Význam → kód</option>
-              </select>
-            </div>
-
-            <div class="field">
-              <label>Scénář / Rádio</label>
-              <select class="select" id="selScenario">
-                <option value="plain">Normální</option>
-                <option value="scenario">Scénář (situace)</option>
-                <option value="radio">Rádio (hláška)</option>
-              </select>
-            </div>
-
-            <div class="field">
-              <label>Časovač</label>
-              <select class="select" id="selTimer">
-                <option value="off">Vypnuto</option>
-                <option value="8">8 s</option>
-                <option value="6">6 s</option>
-                <option value="4">4 s</option>
-              </select>
-            </div>
-
-            <div class="field">
-              <label>Extra</label>
-              <div class="toggleRow">
-                <label class="toggle" title="Testuje jen to, co často kazíš / nedávno špatně">
-                  <input type="checkbox" id="cbWeakOnly" />
-                  <span><b>Slabiny</b> <span class="toggleCount" id="weakCount">(19)</span></span>
-                </label>
-                <label class="toggle" title="Dává častěji to, co kazíš (adaptivní vážení)">
-                  <input type="checkbox" id="cbAdaptive" checked />
-                  <span><b>Adaptive</b> <span class="toggleCount" id="adaptCount">(14)</span></span>
-                </label>
-                <label class="toggle" title="Stres vizuálně (bez zvuku)">
-                  <input type="checkbox" id="cbStress" />
-                  <span><b>Stress</b></span>
-                </label>
-              </div>
-            </div>
-
-            <div class="field">
-              <label>Opakování</label>
-              <div class="toggleRow">
-                <label class="toggle" title="Když něco pokazíš, vrátí se to znovu za pár otázek">
-                  <input type="checkbox" id="cbSRS" checked />
-                  <span><b>SRS</b></span>
-                </label>
-                <label class="toggle" title="Střídá směr (kód→význam / význam→kód)">
-                  <input type="checkbox" id="cbFlip" />
-                  <span><b>Střídat směr</b></span>
-                </label>
-              </div>
-            </div>
-
-            <div class="field">
-              <label>Akce</label>
-              <div class="toggleRow">
-                <button class="btn actionBtn" id="btnRestart" type="button">⟳ Restart</button>
-                <button class="btn actionBtn" id="btnNext" type="button">Další →</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="testTop">
-          <div class="chips">
-            <div class="chipRow">
-              <div class="chip all on" id="chipAll"><span class="dot all"></span>Vše</div>
-              <div class="chip p" id="chipP"><span class="dot ok"></span>Perfektně</div>
-              <div class="chip l on" id="chipL"><span class="dot warn"></span>Lehce</div>
-              <div class="chip v on" id="chipV"><span class="dot bad"></span>Vůbec</div>
-            </div>
-
-            <div class="chipRow">
-              <div class="chip u on" id="chipKnow"><span class="dot u"></span>UMÍ</div>
-              <div class="chip n on" id="chipDont"><span class="dot n"></span>NEUMÍ</div>
-              <div class="chip k on" id="chipUnk"><span class="dot k"></span>NEZNÁM</div>
-            </div>
-
-            <div class="chipRow">
-              <div class="chip t on" id="chip10"><span class="dot t"></span>10-kódy</div>
-              <div class="chip s on" id="chipState"><span class="dot s"></span>Kód-stavy</div>
-            </div>
-          </div>
-
-          <div class="metaRow">
-            <div class="badge">Otázka: <b id="qNum">0</b>/<b id="qTotal">0</b></div>
-            <div class="badge">Skóre: <b id="scoreOk">0</b>/<b id="scoreAll">0</b></div>
-            <div class="badge">RT: <b id="rtAvg">–</b></div>
-          </div>
-        </div>
-
-        <div class="progress">
-          <div class="bar" id="bar"></div>
-        </div>
-        <div id="testArea"></div>
-      </div>
-    </section>
-
-    <!-- ANALÝZA -->
-    <section class="panel" id="panelAnalysis">
-      <div class="card gsap-card" id="analysisCard">
-        <div class="cardTitle">
-          <div>
-            <h2>📊 Analýza</h2>
-            <p class="sub">Komplexní přehled výkonu, slabých míst a stavu znalostí.</p>
-          </div>
-          <button class="btn" id="btnRefreshAnalysis" type="button">↻ Aktualizovat</button>
-        </div>
-        <div id="analysisBody">
-          <div class="analysisLoading">Klikni na Analýza tab pro načtení dat…</div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <span class="fDot" aria-hidden="true"></span>
-      <span>Made by</span>
-      <span class="tag">SudetlandSwager</span>
-      <span>•</span>
-      <span class="tag">Discord: sudetlandswager</span>
-    </footer>
-  </div>
-
-  <!-- Pop quiz overlay -->
-  <div class="overlay" id="overlay" aria-hidden="true">
-    <div class="modal" role="dialog" aria-modal="true" aria-label="Rychlá kontrola">
-      <div class="modalHead">
-        <div>
-          <h3>Rychlá kontrola</h3>
-          <p>Mini otázka při učení (zavře se po odpovědi)</p>
-        </div>
-        <button class="btn" id="btnCloseOverlay" type="button" title="Zavřít">✕</button>
-      </div>
-      <div id="overlayBody"></div>
+  <div id="topbar">
+    <div class="topbarLeft">
+      <div class="statusDot"></div>
+      <div class="statusLabel">LSPD TERM-04 // SECURED</div>
+    </div>
+    <div class="tabs">
+      <button id="btnGoHome" class="tab active" onclick="goBack('dashboard')">
+        <span class="tabIcon">🏠</span>
+        <span class="tabLabel">Dashboard</span>
+      </button>
+      <button id="btnGoAnalysis" class="tab" onclick="show('analysis')">
+        <span class="tabIcon">📈</span>
+        <span class="tabLabel">Analýza</span>
+      </button>
+    </div>
+    <div class="topbarRight">
+      <button id="btnResetAll" class="btnIcon" title="Resetovat vše">🗑️</button>
     </div>
   </div>
 
-  <!-- GSAP 3 + ScrollTrigger -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script src="./app.js"></script>
+  <div class="container">
+    <!-- DASHBOARD: Category Selection -->
+    <main id="panelDashboard" class="panel active">
+      <div class="viewHeader gsap-card">
+        <h1>Výcvikový Terminál</h1>
+        <p>Vyberte operační oblast pro zahájení simulace</p>
+      </div>
+      <div id="categoryGrid" class="categoryGrid">
+        <!-- JS generates cards here -->
+      </div>
+    </main>
 
+    <!-- MODULE LIST: Selection within Category -->
+    <main id="panelCategory" class="panel">
+      <div class="viewHeader gsap-card">
+        <button class="btnBack" onclick="goBack('dashboard')">← Zpět na dashboard</button>
+        <h1 id="categoryTitle">Kategorie</h1>
+      </div>
+      <div id="moduleGrid" class="moduleGrid">
+        <!-- JS generates cards here -->
+      </div>
+    </main>
+
+    <!-- MODULE WORKSPACE: Study + Test + Heatmap for specific module -->
+    <main id="panelWorkspace" class="panel">
+      <div class="workspaceHeader gsap-card">
+        <div class="workspaceHeaderTop">
+          <button class="btnBack" onclick="goBack('category')">← Zpět na seznam</button>
+          <h2 id="moduleTitle">Název modulu</h2>
+          <div class="workspaceTabs">
+            <button id="tabModuleStudy" class="wTab active" onclick="showModuleTab('study')">Učení</button>
+            <button id="tabModuleTest" class="wTab" onclick="showModuleTab('test')">Test</button>
+          </div>
+        </div>
+
+        <div id="moduleHeatmap" class="moduleHeatGrid"></div>
+      </div>
+
+      <!-- Study Sub-Panel -->
+      <section id="moduleStudy" class="moduleSubPanel active">
+        <div class="studyControls gsap-card">
+          <input type="text" id="moduleSearch" placeholder="Hledat v modulu...">
+          <button id="btnModuleReveal" class="btnReveal">👁 Odhalit vše</button>
+        </div>
+        <div id="moduleStudyList" class="studyList"></div>
+      </section>
+
+      <!-- Test Sub-Panel -->
+      <section id="moduleTest" class="moduleSubPanel">
+        <div id="moduleTestMain" class="testMain">
+          <div class="qBox gsap-card">
+            <div class="qHeader">
+              <span id="qProgress">Otázka 1/1</span>
+            </div>
+            <div id="qCode" class="qCode">???</div>
+            <div id="optsGrid" class="opts"></div>
+            <div class="testActions">
+              <button id="btnSkip" class="btnSecondary">Přeskočit</button>
+              <button id="btnNext" class="btnPrimary" style="display:none">Další</button>
+            </div>
+          </div>
+        </div>
+        <div id="moduleTestResults" class="testResults">
+          <div class="resCard gsap-card">
+            <div id="resGrade" class="resGrade">Skvěle</div>
+            <div id="resScore" class="resScore">0 / 0</div>
+            <button id="btnRestart" class="btnPrimary" style="margin-top:20px; width:100%;">Nová simulace</button>
+          </div>
+        </div>
+        <div id="moduleSource" class="moduleSource"></div>
+      </section>
+    </main>
+
+    <!-- Global Analysis (Legacy but updated) -->
+    <main id="panelAnalysis" class="panel">
+      <div class="viewHeader gsap-card">
+        <button class="btnBack" onclick="goBack('dashboard')">← Zpět</button>
+        <h1>Globální Analýza</h1>
+      </div>
+      <div id="analysisBody"></div>
+    </main>
+
+    <footer class="footer">
+      <div class="fDot"></div>
+      <span>LSPD MODULAR TRAINING</span>
+      <span class="tag">v2.0.0</span>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 
 </html>
