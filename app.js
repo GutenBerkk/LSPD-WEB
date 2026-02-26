@@ -226,6 +226,11 @@
       grid.appendChild(pill);
     });
   }
+  function encodePath(path) {
+    // Encode each path segment separately to handle special characters and spaces
+    return path.split("/").map(seg => encodeURIComponent(seg)).join("/");
+  }
+
   function renderModuleStudy() {
     const list = $("moduleStudyList");
     list.innerHTML = "";
@@ -238,16 +243,44 @@
         contentHtml = `<div class="meaningCol formatted-text">${formatText(item.content)}</div>`;
       }
 
-      let attachmentsHtml = "";
+      let attachmentsEl = null;
       if (item.attachments && item.attachments.length > 0) {
-        attachmentsHtml = `<div class="attachments">${item.attachments.map(url => {
-          return `<img src="${url}" class="studyImg" loading="lazy" onclick="window.open('${url}')">`;
-        }).join("")}</div>`;
+        attachmentsEl = document.createElement("div");
+        attachmentsEl.className = "attachments";
+        let loadedCount = 0;
+        let failedCount = 0;
+        const total = item.attachments.length;
+
+        item.attachments.forEach(url => {
+          const encodedUrl = encodePath(url);
+          const img = document.createElement("img");
+          img.src = encodedUrl;
+          img.className = "studyImg";
+          img.loading = "lazy";
+          img.onclick = () => window.open(encodedUrl);
+          img.onerror = () => {
+            img.style.display = "none";
+            failedCount++;
+            // If all images in this attachment block failed AND there's no text, hide the whole row
+            if (!contentHtml && failedCount === total) {
+              row.style.display = "none";
+            }
+          };
+          img.onload = () => { loadedCount++; };
+          attachmentsEl.appendChild(img);
+        });
       }
 
-      if (!contentHtml && !attachmentsHtml) return;
+      if (!contentHtml && !attachmentsEl) return;
 
-      row.innerHTML = contentHtml + attachmentsHtml;
+      // Images appear BEFORE text content in each card
+      if (attachmentsEl) row.appendChild(attachmentsEl);
+      if (contentHtml) {
+        const textEl = document.createElement("div");
+        textEl.className = "meaningCol formatted-text";
+        textEl.innerHTML = formatText(item.content);
+        row.appendChild(textEl);
+      }
       list.appendChild(row);
     });
   }
