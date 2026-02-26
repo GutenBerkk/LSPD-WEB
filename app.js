@@ -58,6 +58,23 @@
     return a;
   };
 
+  function formatText(str) {
+    if (!str) return "";
+    return str.split('\n')
+      .map(line => {
+        let text = line.trim();
+        if (!text) return "";
+        // If bullet list
+        if (text.match(/^[-*•]\s/)) return `<li>${text.substring(2)}</li>`;
+        // If numbered list
+        if (text.match(/^\d+[\.)]\s/)) return `<li><b>${text.split(' ')[0]}</b> ${text.substring(text.indexOf(' ') + 1)}</li>`;
+        return `<p>${text}</p>`;
+      })
+      .filter(l => l)
+      .join('')
+      .replace(/(<li>.*?<\/li>)+/g, match => `<ul class="formatted-text">${match}</ul>`);
+  }
+
   // ═══════════════════════════════════════════════════════════
   //  STATE
   // ═══════════════════════════════════════════════════════════
@@ -123,6 +140,13 @@
     $(`tabModule${tab[0].toUpperCase()}${tab.slice(1)}`).classList.add("active");
     $(`module${tab[0].toUpperCase()}${tab.slice(1)}`).classList.add("active");
     if (tab === "test") startModuleTest();
+  };
+
+  window.openHeatmapModal = () => {
+    $("heatmapModal").style.display = "block";
+  };
+  window.closeHeatmapModal = () => {
+    $("heatmapModal").style.display = "none";
   };
 
   // ═══════════════════════════════════════════════════════════
@@ -202,14 +226,6 @@
       grid.appendChild(pill);
     });
   }
-
-  // Convert Discord CDN URL to local path
-  function localImagePath(url) {
-    const m = url.match(/\/attachments\/(\d+)\/(\d+)\/([^?]+)/);
-    if (m) return `images/${m[1]}_${m[2]}_${m[3]}`;
-    return url; // fallback to CDN
-  }
-
   function renderModuleStudy() {
     const list = $("moduleStudyList");
     list.innerHTML = "";
@@ -219,15 +235,13 @@
 
       let contentHtml = "";
       if (item.content && item.content.trim()) {
-        // Always visible — no hidden/blur
-        contentHtml = `<div class="meaningCol">${item.content.replace(/\n/g, "<br>")}</div>`;
+        contentHtml = `<div class="meaningCol formatted-text">${formatText(item.content)}</div>`;
       }
 
       let attachmentsHtml = "";
       if (item.attachments && item.attachments.length > 0) {
         attachmentsHtml = `<div class="attachments">${item.attachments.map(url => {
-          const local = localImagePath(url);
-          return `<img src="${local}" class="studyImg" loading="lazy" onclick="window.open('${local}')" onerror="this.src='${url}'">`;
+          return `<img src="${url}" class="studyImg" loading="lazy" onclick="window.open('${url}')">`;
         }).join("")}</div>`;
       }
 
@@ -286,12 +300,8 @@
     $("qProgress").textContent = `Otázka ${testIdx + 1} / ${testQueue.length}`;
     $("qCode").textContent = activeModule.toUpperCase();
 
-    // Show first line as a "topic hint", full text in options
-    const lines = correctText.split("\n").filter(l => l.trim());
-    const hint = lines.length > 1 ? lines[0].trim() : "Vyber správnou odpověď:";
-    const full = correctText;
-
-    $("qPrompt").textContent = hint;
+    // The question prompt text (formatted nicely if multiline)
+    $("qPrompt").innerHTML = `<div class="formatted-text" style="font-weight:600; font-size:17px; line-height:1.6;">${formatText(correctText)}</div>`;
 
     // Collect distractors — text from other testable items
     let pool = activeTestItems
@@ -317,7 +327,7 @@
     opts.forEach(o => {
       const b = document.createElement("button");
       b.className = "optBtn";
-      b.textContent = truncate(o, 200);
+      b.textContent = truncate(o, 200).replace(/\n/g, " ");
       b.onclick = () => {
         const s = getStats(activeModule, idx);
         s.total++;
@@ -328,7 +338,7 @@
           s.wrong++;
           b.classList.add("wrong");
           [...$("optsGrid").children].forEach(btn => {
-            if (btn.textContent === truncate(full, 200)) btn.classList.add("correct");
+            if (btn.textContent === truncate(full, 200).replace(/\n/g, " ")) btn.classList.add("correct");
           });
         }
         saveObj("stats", statsMap);

@@ -8,7 +8,7 @@
         "timestamp": "12/19/2025 11:13 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694116921282754/1451699103414358036/image.png?ex=69a01ce5&is=699ecb65&hm=54a549f2ad0a2f0c69e6d47393bbf4a7b34fa784da67790ca60aa796f85962e7&"
+          "images/1447694116921282754_1451699103414358036_image.png"
         ]
       },
       {
@@ -22,7 +22,7 @@
         "timestamp": "11:14 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694116921282754/1451699173832261692/image.png?ex=69a01cf6&is=699ecb76&hm=61722087e717f5baeb30d25c6ff4f04b8f60df30a9d7c5a24fa04e709244d238&"
+          "images/1447694116921282754_1451699173832261692_image.png"
         ]
       },
       {
@@ -30,7 +30,7 @@
         "timestamp": "11:15 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694116921282754/1451699533783240835/image.png?ex=69a01d4c&is=699ecbcc&hm=8a6e8f0c4a04868c9748893b6a6e802c2f8c82091c417aef359effbc300e9a93&"
+          "images/1447694116921282754_1451699533783240835_image.png"
         ]
       },
       {
@@ -38,7 +38,7 @@
         "timestamp": "11:15 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694116921282754/1451699601995464735/image.png?ex=69a01d5c&is=699ecbdc&hm=f472185cf085f93a4613d88e0390ccbc0de4537ff8da6df1d217100c76b9eb79&"
+          "images/1447694116921282754_1451699601995464735_image.png"
         ]
       }
     ]
@@ -52,7 +52,7 @@
         "timestamp": "12/21/2025 11:13 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1450089074617749586/1452423681530925087/image.png?ex=69a01cb6&is=699ecb36&hm=99af34c0bebac1de679fb0d96205244dcf28a4fd0d59f4e2467487a68acfde5a&"
+          "images/1450089074617749586_1452423681530925087_image.png"
         ]
       },
       {
@@ -71,7 +71,79 @@
         "author": "Valtor",
         "timestamp": "11/11/2025 11:13 AM",
         "content": "KRIMINALISTICKÉ OBORY\n.\n️‍♂️ Daktyloskopie\nzkoumá otisky prstů, dlaní nebo chodidel\n(unikátní identifikátor každé osoby)\nForenzní biologie / DNA analýza\nzkoumá biologické stopy, krev, vlasy, kůži, sliny apod.\n(slouží k identifikaci osoby pomocí DNA profilu)\nForenzní balistika\nanalyzuje střelné zbraně, náboje, střely a jejich trajektorii\n(umožňuje určit, z jaké zbraně bylo vystřeleno, vzdálenost a úhel střelby)\nKybernetická kriminalistika\nzabývá se analýzou dat z počítačů, mobilů, serverů, sociálních sítí\n(obnova smazaných dat, sledování komunikace, trasování IP adres)\nTrasologie\nzkoumá stopy po nástrojích, obuvi, pneumatikách, lámání zámků atd.\n(pomáhá určit způsob vniknutí, pohyb pachatele nebo použitý nástroj)\nKrvavé stopy\nanalyzuje tvar, rozstřik a směr kapek krve\n(pomáhá určit polohu oběti a pachatele při útoku, počet ran i směr útoku)\nToxikologie\nzkoumá přítomnost alkoholu, drog, jedů nebo léků v těle.\n(Používá se při nehodách, otravách a podezřelých úmrtích)\nForenzní antropologie\nzkoumá kosterní pozůstatky\n(umožňuje určit věk, pohlaví, výšku, zranění i dobu smrti)",
+        "attachments": [
+          "otisky/first.png"
+        ]
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
         "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "otisky/second.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "otisky/third.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "otisky/fourth.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "otisky/fifth.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "otisky/sixth.png"
+        ]
       }
     ]
   },
@@ -84,7 +156,7 @@
         "timestamp": "12/19/2025 11:21 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694030640251047/1451700880398225550/image.png?ex=69a01e8d&is=699ecd0d&hm=461ddb5a6c465975abbbb765381ee0445ba6b02a0f6747ad9221fa6692f42a22&"
+          "images/1447694030640251047_1451700880398225550_image.png"
         ]
       },
       {
@@ -92,7 +164,7 @@
         "timestamp": "11:21 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694030640251047/1451700929530171495/image.png?ex=69a01e98&is=699ecd18&hm=ee1c89c069fa89fb481782c1a4994521f95c88baffe406217eaf910e55078381&"
+          "images/1447694030640251047_1451700929530171495_image.png"
         ]
       },
       {
@@ -106,7 +178,7 @@
         "timestamp": "11:21 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694030640251047/1451700985968726097/image.png?ex=69a01ea6&is=699ecd26&hm=1ab682c47fcc1ad2a12eeb8d9f913219e0f78bfff8f4b326a701915827f1ae36&"
+          "images/1447694030640251047_1451700985968726097_image.png"
         ]
       },
       {
@@ -120,7 +192,7 @@
         "timestamp": "11:21 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694030640251047/1451701094437752902/image.png?ex=69a01ec0&is=699ecd40&hm=7d412549497dbf7315f965b66a533f8603ecdf6494a36dea3d0aa72c9c313f0c&"
+          "images/1447694030640251047_1451701094437752902_image.png"
         ]
       },
       {
@@ -134,7 +206,7 @@
         "timestamp": "11:22 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694030640251047/1451701148661580017/image.png?ex=69a01ecd&is=699ecd4d&hm=d67acaa1a2542b9679081b2d32d20fbc4d35d6f5a7373d3ccd0a336a1f477bfe&"
+          "images/1447694030640251047_1451701148661580017_image.png"
         ]
       },
       {
@@ -148,7 +220,7 @@
         "timestamp": "11:22 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694030640251047/1451701202764042321/image.png?ex=69a01eda&is=699ecd5a&hm=fe340866b6122ba2c572a9c546545880caa99680b9a3b1a9831a3b27bad1ae29&"
+          "images/1447694030640251047_1451701202764042321_image.png"
         ]
       },
       {
@@ -162,7 +234,7 @@
         "timestamp": "11:22 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694030640251047/1451701281822605373/image.png?ex=69a01eec&is=699ecd6c&hm=2561d0fd57a9a90b75ecd7a7681a50a60545689060c26c1d4a6d3bbbff984179&"
+          "images/1447694030640251047_1451701281822605373_image.png"
         ]
       }
     ]
@@ -176,7 +248,7 @@
         "timestamp": "12/15/2025 12:12 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693596156362813/1450083151471968348/image.png?ex=69a02aac&is=699ed92c&hm=47e81088ccb3bc267ca805459ec259789ea3e908f62885db5ed0f45f8841f7ba&"
+          "images/1447693596156362813_1450083151471968348_image.png"
         ]
       },
       {
@@ -184,7 +256,7 @@
         "timestamp": "12:12 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693596156362813/1450083210724773920/image.png?ex=69a02aba&is=699ed93a&hm=32ac00f92c86fbbe42ef5ca90efb649ce7440142b43193df2661285dc98204c2&"
+          "images/1447693596156362813_1450083210724773920_image.png"
         ]
       },
       {
@@ -198,7 +270,7 @@
         "timestamp": "12:14 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693596156362813/1450083479516876903/image.png?ex=69a02afa&is=699ed97a&hm=c66f226ebe8dc296317d1e1cea8acf56f446ca49594ddceea568fd948aae95ab&"
+          "images/1447693596156362813_1450083479516876903_image.png"
         ]
       },
       {
@@ -212,7 +284,7 @@
         "timestamp": "12:14 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693596156362813/1450083523385098280/image.png?ex=69a02b05&is=699ed985&hm=1928e3ddefd10e70c01b5449109af6d08af6cb9834d61d4d0427e6186b94a1dc&"
+          "images/1447693596156362813_1450083523385098280_image.png"
         ]
       },
       {
@@ -226,7 +298,7 @@
         "timestamp": "12:14 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693596156362813/1450083576367415409/image.png?ex=69a02b11&is=699ed991&hm=8ab14311b59cb241375a0e8721d5f3eb77c92c066b5693e8c6d86aea00efae5f&"
+          "images/1447693596156362813_1450083576367415409_image.png"
         ]
       },
       {
@@ -240,7 +312,7 @@
         "timestamp": "12:14 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693596156362813/1450083630155305032/image.png?ex=69a02b1e&is=699ed99e&hm=1055c98f5db5ae3deca85572f6a272d5815a510077b963d2a99bc51460a5b7a8&"
+          "images/1447693596156362813_1450083630155305032_image.png"
         ]
       },
       {
@@ -254,7 +326,7 @@
         "timestamp": "1/28/2026 2:44 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693596156362813/1466066328858132661/image_1.png?ex=69a04e2a&is=699efcaa&hm=bd4e87310752e6a8a903fe31449998ce6800219a9b151d3954215aaca881623c&"
+          "images/1447693596156362813_1466066328858132661_image_1.png"
         ]
       }
     ]
@@ -268,7 +340,7 @@
         "timestamp": "12/15/2025 12:32 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693906153308241/1450088120555933726/image.png?ex=69a02f4d&is=699eddcd&hm=9424722cd70e7ef523447af40ca17117cbefedf5fbd2e460b67681ee61a0bb71&"
+          "images/1447693906153308241_1450088120555933726_image.png"
         ]
       },
       {
@@ -276,35 +348,55 @@
         "timestamp": "12:32 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693906153308241/1450088159927996477/image.png?ex=69a02f56&is=699eddd6&hm=e94d84b708b0927fa21ab01e0a46f666144c3ac7a3b8c7e3e0f7bf3502a51a21&"
+          "images/1447693906153308241_1450088159927996477_image.png"
         ]
       },
       {
         "author": "Valtor",
         "timestamp": "12:33 PM",
         "content": "je věda zabývající se pohybem a účinkem střely\nvnitřní balistika\n: pohyb střely v hlavni\nvnější balistika\n: aktivně se dotazujeme na negativa, nepopíráme kritiku, nebráníme se, nereagujeme odvetou bez agresivního chování\npřechodová balistika\n: pohyb střely od opuštění hlavně do okamžiku, kdy končí urychlování\nterminální balistika\n: pohyb střely v cíli (např. v těle zasaženého člověka)",
-        "attachments": []
+        "attachments": [
+          "Průzkum střely/first.png"
+        ]
       },
       {
         "author": "Valtor",
         "timestamp": "12:34 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693906153308241/1450088527252689030/image.png?ex=69a02fae&is=699ede2e&hm=234ddf418c33ea248e92f2e17000ea282c15fa053c18d40356eaba46b308f9f4&"
+          "images/1447693906153308241_1450088527252689030_image.png"
         ]
       },
       {
         "author": "Valtor",
         "timestamp": "12:34 PM",
         "content": "Typ zbraně: Pistol\nRáže: 9mm\nEvid. číslo: 983-798\nOtisky: Nalezeny, osoba Richard Zoner, narozen 19.06.1983\nČas: Výstřel ze zbraně přibližně před 2 hodinami\nDalší informace: Na zbrani byla nalezena krev\nPodpis: [bn: 2320], Patrick Jane",
-        "attachments": []
+        "attachments": [
+          "Průzkum střely/second.png"
+        ]
       },
       {
         "author": "Valtor",
         "timestamp": "12:35 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693906153308241/1450088801249661049/image.png?ex=69a02fef&is=699ede6f&hm=c492dd72b1e4fc2b208fcf7841ea2409593bce66c0a9dc6b9109a1014acecb24&"
+          "images/1447693906153308241_1450088801249661049_image.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "Průzkum střely/third.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "Průzkum střely/fourth.png"
         ]
       }
     ]
@@ -318,7 +410,7 @@
         "timestamp": "12/13/2025 11:45 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693560706236467/1449532636245524664/image.png?ex=69a02437&is=699ed2b7&hm=1b2329dd64566ff2e61cde2024a6ca36996f92cf96c381ab5a451c920b19cf15&"
+          "images/1447693560706236467_1449532636245524664_image.png"
         ]
       },
       {
@@ -326,56 +418,72 @@
         "timestamp": "11:45 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693560706236467/1449532709033738372/image.png?ex=69a02448&is=699ed2c8&hm=72584c234f43b4105f9d3174ec0d2934e78d29ade79f6c49d1d65cb30f888ed0&"
+          "images/1447693560706236467_1449532709033738372_image.png"
         ]
       },
       {
         "author": "Valtor",
         "timestamp": "11:46 PM",
         "content": "ID karta, řidičský průkaz, zbrojní průkaz, cestovní pas\nNa prvním místě prohledáme osobu a zjistíme, zda u sebe nemá jakýkoliv doklad totožnosti\nJe doklad, kterým občan státu nebo cizinec prokazuje svoji totožnost podle právního předpisu\nDoklad totožnosti musí obsahovat officiálně potvrzené základní údaje o svém držiteli, obvykle zejména jeho celé jméno, fotografii a datum narození.",
-        "attachments": []
+        "attachments": [
+          "Zajištění totožnosti/second.png"
+        ]
       },
       {
         "author": "Valtor",
         "timestamp": "11:46 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693560706236467/1449532982795964467/image.png?ex=69a0248a&is=699ed30a&hm=e1c5872ce5f807bd600087308e386c3e1aee2e97c4eaadb130bda4ff6e10fcb6&"
+          "images/1447693560706236467_1449532982795964467_image.png"
         ]
       },
       {
         "author": "Valtor",
         "timestamp": "11:46 PM",
         "content": "Mimo jiné tento způsob nazýváme jako proces „Daktyloskopie“\nOtisk prstu je jednou nebo vícekrát skenován speciálním skenerem a poté digitalizován\nOtisk se analyzuje, aby se ověřilo, že se jedná o platný nedeformovaný otisk prstu",
-        "attachments": []
+        "attachments": [
+          "Zajištění totožnosti/third.png"
+        ]
       },
       {
         "author": "Valtor",
         "timestamp": "11:46 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693560706236467/1449533033760686254/image.png?ex=69a02496&is=699ed316&hm=74fc25c07b7fcd15fe6caa135489e7d3c8754de682bc9571558293a0cbe17fd1&"
+          "images/1447693560706236467_1449533033760686254_image.png"
         ]
       },
       {
         "author": "Valtor",
         "timestamp": "11:46 PM",
         "content": "Vyfotíme obličej osoby a prohledáme databázi občanů pomocí procesu „Face Recognition“ (přístrojové)\nPočkáme na výsledek záznamu ze systému s profilem a údaji o vyhledávaném pachateli\nTuto metodu lze použít kdykoliv, osoby jsou automaticky od 16 let evidovány v databázi občanů SA",
-        "attachments": []
+        "attachments": [
+          "Zajištění totožnosti/fourth.png"
+        ]
       },
       {
         "author": "Valtor",
         "timestamp": "11:46 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693560706236467/1449533079055241226/image.png?ex=69a024a1&is=699ed321&hm=d5d2cd772a1105e54e98afb91527d07d742fc864455d298789a31415c287bdef&"
+          "images/1447693560706236467_1449533079055241226_image.png"
         ]
       },
       {
         "author": "Valtor",
         "timestamp": "11:47 PM",
         "content": "Prohledáme databázi dle údajů sdělených od pachatele\nZkontrolujeme, jestli sedí fotografie vložená u profilu osoby v MDT\nLze také prohlédnout archiv foto evidencí pachatelů a zjistit, zda předtím vypadal podobně",
-        "attachments": []
+        "attachments": [
+          "Zajištění totožnosti/sixth.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "Zajištění totožnosti/firth.png"
+        ]
       }
     ]
   },
@@ -388,7 +496,7 @@
         "timestamp": "12/19/2025 11:00 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693633716490281/1451695807920341022/image.png?ex=69a0c293&is=699f7113&hm=c1b8bf9f8318fc2c63780ca602db43d3687d3e1baacdc47c0eedbc0565f2d857&"
+          "images/1447693633716490281_1451695807920341022_image.png"
         ]
       },
       {
@@ -396,7 +504,7 @@
         "timestamp": "11:01 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693633716490281/1451695843571793940/image.png?ex=69a0c29c&is=699f711c&hm=c3dd9ad5607b8fcf2a85c1d711f24d1ecc8ab25cc660820b87bbab54c2d239ec&"
+          "images/1447693633716490281_1451695843571793940_image.png"
         ]
       },
       {
@@ -410,7 +518,7 @@
         "timestamp": "11:01 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693633716490281/1451695886575861881/image.png?ex=69a0c2a6&is=699f7126&hm=63bc8e11f77320418d548790d8ea82422499bd7dd659a9c1e177e3bc13a14682&"
+          "images/1447693633716490281_1451695886575861881_image.png"
         ]
       },
       {
@@ -424,7 +532,7 @@
         "timestamp": "11:01 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693633716490281/1451695983262961910/image.png?ex=69a0c2bd&is=699f713d&hm=7f4c5e0363eaab53d38ae373ab7f74af2f4c4643aa5c85c0e675e9d34c94605a&"
+          "images/1447693633716490281_1451695983262961910_image.png"
         ]
       }
     ]
@@ -438,8 +546,8 @@
         "timestamp": "2/18/2026 5:48 PM",
         "content": "# FLECCA BANK",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1473722482858135613/1473722745492734133/1.png?ex=69a07942&is=699f27c2&hm=0434b7cca6691ec44ec3763defa1d7bdf8df20463b16846163ead70f8b005dd3&",
-          "https://cdn.discordapp.com/attachments/1473722482858135613/1473722745924878565/2.png?ex=69a07943&is=699f27c3&hm=c69c379eaa9d50563733d0d4c2f008878e48b8ebaec7d2c61ebd9f0ecd133f6f&"
+          "images/1473722482858135613_1473722745492734133_1.png",
+          "images/1473722482858135613_1473722745924878565_2.png"
         ]
       },
       {
@@ -453,10 +561,10 @@
         "timestamp": "5:50 PM",
         "content": "# PACIFIC BANK",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1473722482858135613/1473723283026481404/unknown.png?ex=69a079c3&is=699f2843&hm=b7bcae902f7843e4b49a2727a963ea5b03fdb9ea4bd3f0f121cfb50dfb7928f5&",
-          "https://cdn.discordapp.com/attachments/1473722482858135613/1473723283768738004/1.png?ex=69a079c3&is=699f2843&hm=7c3cbf21fe2b31de300789c6d670a057c1724ba2db428512262312e8afc2fd47&",
-          "https://cdn.discordapp.com/attachments/1473722482858135613/1473723284498677783/2.png?ex=69a079c3&is=699f2843&hm=a273aca63410f632ae430e64ec67bf3da84de317d28f38bc944b52b926f57a2f&",
-          "https://cdn.discordapp.com/attachments/1473722482858135613/1473723285039611968/3.png?ex=69a079c3&is=699f2843&hm=16167af828c25fad0c0366c88c21cf78465f8a0fe9d6346763d3d8d56235c121&"
+          "images/1473722482858135613_1473723283026481404_unknown.png",
+          "images/1473722482858135613_1473723283768738004_1.png",
+          "images/1473722482858135613_1473723284498677783_2.png",
+          "images/1473722482858135613_1473723285039611968_3.png"
         ]
       },
       {
@@ -470,10 +578,10 @@
         "timestamp": "5:50 PM",
         "content": "# SHOPS",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1473722482858135613/1473723372864147711/1.png?ex=69a079d8&is=699f2858&hm=6042fa59f27b664d25568a98a6ceddf71cfca876b3d32f49ecc23ece64f0ac05&",
-          "https://cdn.discordapp.com/attachments/1473722482858135613/1473723373241766025/2.png?ex=69a079d8&is=699f2858&hm=1be9bdec98507b9d83cfc1f934342b63f4315efd1f6919f2af1bc79c960adc0f&",
-          "https://cdn.discordapp.com/attachments/1473722482858135613/1473723373618987180/3.png?ex=69a079d8&is=699f2858&hm=e4e3a77adc25f3960b1b8bc10ed091a1f4d3e8b3977122dc82cee4b831708cfd&",
-          "https://cdn.discordapp.com/attachments/1473722482858135613/1473723374000930816/4.png?ex=69a079d8&is=699f2858&hm=b4adee8be4c4464f898bdf756db55b0be8b803b4a1dd91558e8f3ffe1f580c2e&"
+          "images/1473722482858135613_1473723372864147711_1.png",
+          "images/1473722482858135613_1473723373241766025_2.png",
+          "images/1473722482858135613_1473723373618987180_3.png",
+          "images/1473722482858135613_1473723374000930816_4.png"
         ]
       },
       {
@@ -487,7 +595,7 @@
         "timestamp": "5:51 PM",
         "content": "# JEWERLY STORE",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1473722482858135613/1473723490560512102/1.png?ex=69a079f4&is=699f2874&hm=8e7082f2d0ee1a9187fc89f76b34a5973038ec1c0592412a7acd042ebbf39ed5&"
+          "images/1473722482858135613_1473723490560512102_1.png"
         ]
       }
     ]
@@ -501,7 +609,7 @@
         "timestamp": "1/12/2026 11:47 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1460404730520928431/1460404959509090368/SWAT.png?ex=69a024db&is=699ed35b&hm=87f66e089b3ef28668cfe5f6594f08eb7f198128cc91fa1fa4d3e85c0ef4708d&"
+          "images/1460404730520928431_1460404959509090368_SWAT.png"
         ]
       },
       {
@@ -509,7 +617,7 @@
         "timestamp": "2/18/2026 5:32 PM",
         "content": "VYBAVENÍ SWAT JEDNOTKY",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1460404730520928431/1473718945965150308/vybava_swatu.jpg?ex=69a075b9&is=699f2439&hm=2d41a9bb43207583f919d1b298d2fa9576aaf2a9e3d09a54ca3315d657408314&"
+          "images/1460404730520928431_1473718945965150308_vybava_swatu.jpg"
         ]
       }
     ]
@@ -535,7 +643,7 @@
         "timestamp": "2/15/2026 3:15 PM",
         "content": "WINDOW TINT REGULATIONS\n.\n️\nZÁKLADNÍ PRAVIDLA:\nČelní sklo povoleno pouze v horním pruhu (tzv. \"brow\"), pruh nesmí být širší než 4 palce a nesmí být reflexní či barevný\nPřední boční okna musí mít propustnost minimálně 70 %\nZadní boční okna jakákoliv úroveň zatmavení bez omezení, pokud má auto obě boční zrcátka\nZadní sklo je také povolená jakákoliv úroveň zatmavení, za podmínky funkčních bočních zrcátek\n️\nSEZNAM PORUŠENÍ:\nCVC §26708(a)(1) - \"Instalace materiálu, který omezuje výhled řidiče skrze čelní nebo přední okna\" - Infraction\nCVC §26708.5 - \"Aplikace transparentního materiálu (fólie), který mění barvu nebo odrazivost skla\" - Infraction\nCVC §26710 - \"Provozování vozidla s poškozeným/nebezpečným sklem (bubliny ve fólii, které zkreslují výhled)\" - Infraction\n.",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1472597151321292933/1472597177925763338/image.png?ex=69a0557e&is=699f03fe&hm=7a6a01cddc499c6798f886dd302a6cf5ffdd95805ea65529256a5dcf51723e0d&"
+          "images/1472597151321292933_1472597177925763338_image.png"
         ]
       }
     ]
@@ -549,7 +657,7 @@
         "timestamp": "12/13/2025 7:37 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447616612633940040/1449470339976265748/image.png?ex=69a092f2&is=699f4172&hm=095f0c0531445f664c33bbc0dfd07284a50069937aea4ce3a33caf48fa12f752&"
+          "images/1447616612633940040_1449470339976265748_image.png"
         ]
       }
     ]
@@ -563,7 +671,7 @@
         "timestamp": "12/13/2025 7:37 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447689384324370573/1449470383320469554/image.png?ex=69a092fd&is=699f417d&hm=eeff8f97749466c888eab40dba9b3c31262ebf75adeafe90c24d7f0d68ae3f29&"
+          "images/1447689384324370573_1449470383320469554_image.png"
         ]
       }
     ]
@@ -577,7 +685,7 @@
         "timestamp": "12/13/2025 7:38 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693339855159459/1449470599666597919/image.png?ex=69a09330&is=699f41b0&hm=2d1f650263db689a6f508b5a89a92e61b87c2ae1ada629bb6acdfad8b4828e03&"
+          "images/1447693339855159459_1449470599666597919_image.png"
         ]
       }
     ]
@@ -603,7 +711,7 @@
         "timestamp": "12/13/2025 7:38 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447689521234968799/1449470448067809513/image.png?ex=69a0930c&is=699f418c&hm=c30ffa43ccb59fefcd8af33caa4428488954524ad28324a744cd904d1e3ec6f4&"
+          "images/1447689521234968799_1449470448067809513_image.png"
         ]
       }
     ]
@@ -617,7 +725,7 @@
         "timestamp": "12/18/2025 2:13 PM",
         "content": "Obsah medical bagu EMS\n.\nDiagnostika a měření\nStetoskop zavěšený na straně\nTonometr (tlakoměr) s manometrem pro měření krevního tlaku.\nDýchací cesty a resuscitace\nResuscitační maska (modrá, silikonová) pro ventilaci pacienta\nAmbu vak (ruční křísicí přístroj)\nGuedelovy ústní vzduchovody pro zajištění průchodnosti dýchacích cest\nInhalátor pro úlevové léky na astma)\nObvazový materiál a rány\nGázové obvazy v rolích\nSterilní krytí a čtverce v balíčcích\nNáplasti a fixační pásky\nNástroje a injekční technika\nZdravotnické nůžky (chirurgické nůžky se zahnutou špičkou)\nInjekční stříkačky různých objemů\nAmpule s léky (uložené v elastických očkách na přední klopě)\nLékařské lahvičky s roztoky (dezinfekce, fyziologický roztok nebo peroxid)\nOchranné pomůcky a ostatní\nVyšetřovací ochranné rukavice\nSáček na biologický odpad (žlutý s označením biohazard)",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447689853952200935/1451200715036033199/EM13.021_Open.jpg?ex=69a046fc&is=699ef57c&hm=eb3405a8d2dc18f30bb4d964eb834239e460b8897d667f3482f98436d8cbdb3f&"
+          "images/1447689853952200935_1451200715036033199_EM13.021_Open.jpg"
         ]
       }
     ]
@@ -631,7 +739,7 @@
         "timestamp": "12/13/2025 7:39 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693463276748910/1449470683724648520/image.png?ex=69a09344&is=699f41c4&hm=6184298912a9b79687ef8998389107730439c9477497fe44f8fbed932e8d959d&"
+          "images/1447693463276748910_1449470683724648520_image.png"
         ]
       }
     ]
@@ -645,7 +753,7 @@
         "timestamp": "12/13/2025 7:38 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447693383958134904/1449470640343089378/image.png?ex=69a0933a&is=699f41ba&hm=b2a47b599bebea909975395bca4977baa2ea854a93136b4cb684f7a467af7fca&"
+          "images/1447693383958134904_1449470640343089378_image.png"
         ]
       }
     ]
@@ -683,7 +791,7 @@
         "timestamp": "12/13/2025 7:03 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694864346251464/1449461787303870698/image.png?ex=69a08afb&is=699f397b&hm=21873df00e5719c2f24b158c8cd1c15c6f6de73b7d24bc2cd503a32a1d3f1db8&"
+          "images/1447694864346251464_1449461787303870698_image.png"
         ]
       },
       {
@@ -691,8 +799,8 @@
         "timestamp": "7:03 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694864346251464/1449461824511807679/hodnosti-lspd.webp?ex=69a08b04&is=699f3984&hm=860900a6503190e712924ab2d6c81f9083c274c61cea7f5f329d82edd793e425&",
-          "https://cdn.discordapp.com/attachments/1447694864346251464/1449461824972914708/hodnosti-lssd.webp?ex=69a08b04&is=699f3984&hm=32fdbe97a0e4a121307d67438a2040a5457f90aef2a4acb6f40b10d7188532f6&"
+          "images/1447694864346251464_1449461824511807679_hodnosti-lspd.webp",
+          "images/1447694864346251464_1449461824972914708_hodnosti-lssd.webp"
         ]
       },
       {
@@ -706,7 +814,7 @@
         "timestamp": "7:06 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694864346251464/1449462559949459557/image.png?ex=69a08bb4&is=699f3a34&hm=4409343e3659f147e38766cdeca9bb6c8f6a27cab82a1dcf8dd86398f049ec54&"
+          "images/1447694864346251464_1449462559949459557_image.png"
         ]
       },
       {
@@ -714,7 +822,7 @@
         "timestamp": "7:07 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694864346251464/1449462802094882846/image.png?ex=69a08bed&is=699f3a6d&hm=a24b327fa6ccff0ee09daabe3cad580647cdd9514762ea5b20f4f6307dd32e64&"
+          "images/1447694864346251464_1449462802094882846_image.png"
         ]
       }
     ]
@@ -728,7 +836,7 @@
         "timestamp": "12/13/2025 6:50 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694945929527328/1449458400558584038/image.png?ex=69a087d4&is=699f3654&hm=89f095d6426aeeec5e54fbfbc84c77041e769cae326a38436ce7b390592fc7f9&"
+          "images/1447694945929527328_1449458400558584038_image.png"
         ]
       },
       {
@@ -736,7 +844,7 @@
         "timestamp": "6:50 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694945929527328/1449458538446590173/image.png?ex=69a087f5&is=699f3675&hm=452482988db0b973f69e5682d13310532071371d61e85d76939fbb2cdb554b9e&"
+          "images/1447694945929527328_1449458538446590173_image.png"
         ]
       },
       {
@@ -744,7 +852,7 @@
         "timestamp": "6:51 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694945929527328/1449458754398453952/image.png?ex=69a08828&is=699f36a8&hm=72c2377ab1e64d1b7f3b560a4451a555494586d19be15223262dc1fbe816008e&"
+          "images/1447694945929527328_1449458754398453952_image.png"
         ]
       },
       {
@@ -752,7 +860,7 @@
         "timestamp": "6:52 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694945929527328/1449458875177631804/image.png?ex=69a08845&is=699f36c5&hm=36b0097b96f7c6cd6cc216c172d1fcbe0cede8c915deda68c3fb2cd70fd20fc4&"
+          "images/1447694945929527328_1449458875177631804_image.png"
         ]
       }
     ]
@@ -778,7 +886,7 @@
         "timestamp": "12/13/2025 6:26 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694916611473449/1449452518043287612/image.png?ex=69a08259&is=699f30d9&hm=9f302d30c43e9ec0d028136e51180214acf4ead329935a091e26b070f3082fac&"
+          "images/1447694916611473449_1449452518043287612_image.png"
         ]
       },
       {
@@ -786,7 +894,7 @@
         "timestamp": "6:27 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694916611473449/1449452589694320722/image.png?ex=69a0826a&is=699f30ea&hm=f8c4b700c038aad4fbe468c01fafc7405a23443a6ce512e8a5242c24f642e20b&"
+          "images/1447694916611473449_1449452589694320722_image.png"
         ]
       }
     ]
@@ -800,7 +908,7 @@
         "timestamp": "12/14/2025 12:15 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449540250165706822/image.png?ex=69a02b4e&is=699ed9ce&hm=5cd3390852dcaa724b3448e6a0b4989b70437b74340c3794d835fd55e6657f06&"
+          "images/1447706523940946071_1449540250165706822_image.png"
         ]
       },
       {
@@ -808,7 +916,7 @@
         "timestamp": "12:15 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449540281207623793/image.png?ex=69a02b56&is=699ed9d6&hm=d9dec962fb12aa3d7b54dabc17ac9c7b42af63d9cc243dedb2eb3d2a553cbb1c&"
+          "images/1447706523940946071_1449540281207623793_image.png"
         ]
       },
       {
@@ -816,7 +924,7 @@
         "timestamp": "12:16 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449540404881133751/image.png?ex=69a02b73&is=699ed9f3&hm=dd8f5297aad1c6d407f5c96822314fc0a7a83d48dd2caf71b84c89f643849e5d&"
+          "images/1447706523940946071_1449540404881133751_image.png"
         ]
       },
       {
@@ -824,7 +932,7 @@
         "timestamp": "12:16 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449540471427694613/image.png?ex=69a02b83&is=699eda03&hm=1165e7d3b014b0bc709aa3375b9e9eb3b3312a53c49fc3e4d50573ce160c9de1&"
+          "images/1447706523940946071_1449540471427694613_image.png"
         ]
       },
       {
@@ -832,7 +940,7 @@
         "timestamp": "12:16 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449540536766566440/image.png?ex=69a02b93&is=699eda13&hm=4219b3b5438f588456468fdcff41f4925f5831c22c3cf03aeb5be3616cc187dc&"
+          "images/1447706523940946071_1449540536766566440_image.png"
         ]
       },
       {
@@ -840,7 +948,7 @@
         "timestamp": "12:16 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449540573311664128/image.png?ex=69a02b9b&is=699eda1b&hm=cc6964e4948bdd80aa884b4fd324a27f123b6c7c09c66da1787cf2de5033018b&"
+          "images/1447706523940946071_1449540573311664128_image.png"
         ]
       },
       {
@@ -848,7 +956,7 @@
         "timestamp": "12:17 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449540643461398579/image.png?ex=69a02bac&is=699eda2c&hm=2e21b960942f4a6b676a4b571f31b161d0e705970d85be3613b7a8a342a462d9&"
+          "images/1447706523940946071_1449540643461398579_image.png"
         ]
       },
       {
@@ -856,7 +964,7 @@
         "timestamp": "12:17 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449540670216998982/image.png?ex=69a02bb2&is=699eda32&hm=4e11fe9653b40b288bd9fc2db24caafff5a3628cb07998c43c542c3642545782&"
+          "images/1447706523940946071_1449540670216998982_image.png"
         ]
       },
       {
@@ -864,7 +972,7 @@
         "timestamp": "12:17 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449540725321764914/image.png?ex=69a02bc0&is=699eda40&hm=07f81be944bef9e806065bbe193a34ba9f4f1b6a214052232db67a1ecb9448f6&"
+          "images/1447706523940946071_1449540725321764914_image.png"
         ]
       },
       {
@@ -872,7 +980,7 @@
         "timestamp": "12:17 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449540765159264286/image.png?ex=69a02bc9&is=699eda49&hm=b4b99ca31bd24b2f07f9c12071d5e0dbd99079936fb94a67e9e13f77b5e6b902&"
+          "images/1447706523940946071_1449540765159264286_image.png"
         ]
       },
       {
@@ -880,7 +988,7 @@
         "timestamp": "12:17 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449540803780415518/image.png?ex=69a02bd2&is=699eda52&hm=830cbed9539773766848b9bc1c880555abd8066c776627d9b80eb9979bc3cf14&"
+          "images/1447706523940946071_1449540803780415518_image.png"
         ]
       },
       {
@@ -888,7 +996,7 @@
         "timestamp": "12:17 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449540846235025409/image.png?ex=69a02bdc&is=699eda5c&hm=ffc444fecb63316ea7cd834100d3a8f7abf18a6f9956b3cfd4be340f138e1fff&"
+          "images/1447706523940946071_1449540846235025409_image.png"
         ]
       },
       {
@@ -896,7 +1004,7 @@
         "timestamp": "12:18 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449540988254163044/image.png?ex=69a02bfe&is=699eda7e&hm=e3fde25d833a60e317abbe8beb7a1f2e9ad56c1a98151b5e04dae33f5764a243&"
+          "images/1447706523940946071_1449540988254163044_image.png"
         ]
       },
       {
@@ -904,7 +1012,7 @@
         "timestamp": "12:18 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449541021796143147/image.png?ex=69a02c06&is=699eda86&hm=ca3d4dc604238b32cace1545033b12a953fc6b4f5f39e497ecc339fbcc34c4aa&"
+          "images/1447706523940946071_1449541021796143147_image.png"
         ]
       },
       {
@@ -912,7 +1020,7 @@
         "timestamp": "12:18 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449541077659947059/image.png?ex=69a02c14&is=699eda94&hm=aa3e2f4ab4d65330faef4af00f3d598adf74d768fa229ec74ed86d9a0a8c3d5a&"
+          "images/1447706523940946071_1449541077659947059_image.png"
         ]
       },
       {
@@ -920,7 +1028,7 @@
         "timestamp": "12:18 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449541107980570634/image.png?ex=69a02c1b&is=699eda9b&hm=22fb0d6790f36e6f725b70911b380db5512a335d32e3cb3a973024c3e3400c46&"
+          "images/1447706523940946071_1449541107980570634_image.png"
         ]
       },
       {
@@ -928,7 +1036,7 @@
         "timestamp": "12:18 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449541131359748257/image.png?ex=69a02c20&is=699edaa0&hm=b5ec2e6a1c08a296ddafdf7ae3e4f7e17cd9a09f3ac86f59cc5c2029f473032a&"
+          "images/1447706523940946071_1449541131359748257_image.png"
         ]
       },
       {
@@ -936,7 +1044,7 @@
         "timestamp": "12:19 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449541214805430369/image.png?ex=69a02c34&is=699edab4&hm=bc236e03c89ef99924e5ac248d34c58537bb38ad77097e0e362f8523f759271b&"
+          "images/1447706523940946071_1449541214805430369_image.png"
         ]
       },
       {
@@ -944,7 +1052,7 @@
         "timestamp": "12:19 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449541249454313563/image.png?ex=69a02c3d&is=699edabd&hm=5611330a8c36fa5c21b2bac882083dba0c9ad5c7880a2f0025ee4b36e804d42e&"
+          "images/1447706523940946071_1449541249454313563_image.png"
         ]
       },
       {
@@ -952,7 +1060,7 @@
         "timestamp": "12:19 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449541294832484513/image.png?ex=69a02c47&is=699edac7&hm=88f500944042c70d3e1f2975939de8f6ffde1b36b8b63419f940d251fa125abc&"
+          "images/1447706523940946071_1449541294832484513_image.png"
         ]
       },
       {
@@ -960,7 +1068,7 @@
         "timestamp": "12:19 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449541320548028426/image.png?ex=69a02c4d&is=699edacd&hm=e2c5a04116eafc44e669b5c2a833fd085cc2d160eaf55abaf486428e8896e0a7&"
+          "images/1447706523940946071_1449541320548028426_image.png"
         ]
       },
       {
@@ -968,7 +1076,7 @@
         "timestamp": "12:19 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449541352688717884/image.png?ex=69a02c55&is=699edad5&hm=b181f6263e7f38618385cca19eeaf46ffce8b2aa32b5a4730cfa7860726c35bb&"
+          "images/1447706523940946071_1449541352688717884_image.png"
         ]
       },
       {
@@ -976,7 +1084,7 @@
         "timestamp": "12:19 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449541386734014474/image.png?ex=69a02c5d&is=699edadd&hm=80dd2cbaf1ae04e3ccc0ecd8012259ec3de27339852bc3bd3fb37070297dd332&"
+          "images/1447706523940946071_1449541386734014474_image.png"
         ]
       },
       {
@@ -984,7 +1092,315 @@
         "timestamp": "12:20 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706523940946071/1449541418938011789/image.png?ex=69a02c65&is=699edae5&hm=c58abf76a760a217f471d0c61980c23805b56828b05fc23f223c8f656504879a&"
+          "images/1447706523940946071_1449541418938011789_image.png"
+        ]
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/first.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/second.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/fourth.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/fifth.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/sixth.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/seventh.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/eight.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/nineth.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/tenth.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/eleventh.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/tvelveth.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/13.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/thirth.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/14.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/15.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/16.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/17.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/18.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/19.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/20.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/21.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD stanice/22.png"
         ]
       }
     ]
@@ -1004,7 +1420,7 @@
         "timestamp": "4:40 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1469719444132462771/1469719589200986202/image.png?ex=69a06988&is=699f1808&hm=e79de699edbed623756afb3e36a70353e4a83be1a9d2a95a74fec966c658ba0a&"
+          "images/1469719444132462771_1469719589200986202_image.png"
         ]
       }
     ]
@@ -1018,7 +1434,7 @@
         "timestamp": "12/17/2025 10:57 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1450970223053377546/1450970251092168724/image.png?ex=69a0c1d9&is=699f7059&hm=5368962620b5c482139f72a8ffd5ce560e1381d523923a57d796a2aa33729df2&"
+          "images/1450970223053377546_1450970251092168724_image.png"
         ]
       },
       {
@@ -1026,7 +1442,7 @@
         "timestamp": "10:58 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1450970223053377546/1450970499650949163/image.png?ex=69a0c214&is=699f7094&hm=8904981fad323afde9b6e9d5d4c1fd1d99a86b1bc0a9b786703208bfdfbd62b3&"
+          "images/1450970223053377546_1450970499650949163_image.png"
         ]
       },
       {
@@ -1040,7 +1456,7 @@
         "timestamp": "10:59 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1450970223053377546/1450970759194349760/image.png?ex=69a0c252&is=699f70d2&hm=9974828a5a0c5c824f8fdb0ffaffc42ea535753109f70d6cd1485bb6942afe59&"
+          "images/1450970223053377546_1450970759194349760_image.png"
         ]
       },
       {
@@ -1054,7 +1470,7 @@
         "timestamp": "11:00 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1450970223053377546/1450970902593540136/image.png?ex=69a0c274&is=699f70f4&hm=d1fc38f2a75955fca39c37de0166e04aa1a497498a2d38ae474745a134066ac2&"
+          "images/1450970223053377546_1450970902593540136_image.png"
         ]
       },
       {
@@ -1074,7 +1490,7 @@
         "timestamp": "12/13/2025 9:48 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1449459044824912048/1449503281020665937/image.png?ex=69a0b1a0&is=699f6020&hm=78a375d4034c96071202ffb047b4902aeb4e11098a04aef661a0b781bcc1c8ba&"
+          "images/1449459044824912048_1449503281020665937_image.png"
         ]
       },
       {
@@ -1082,7 +1498,7 @@
         "timestamp": "9:48 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1449459044824912048/1449503317037285526/image.png?ex=69a0b1a9&is=699f6029&hm=967dcaaf0841108d4556901fa366c3dd555e818781e78ed1e1bc29608ca80f25&"
+          "images/1449459044824912048_1449503317037285526_image.png"
         ]
       },
       {
@@ -1150,7 +1566,7 @@
         "timestamp": "12/13/2025 11:00 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1449467629881393383/1449521309099757799/image.png?ex=69a0c26a&is=699f70ea&hm=f6a202766b06b331f27313d78f0bbf6cfc7f47256a527b2b21b2081a3f52b007&"
+          "images/1449467629881393383_1449521309099757799_image.png"
         ]
       },
       {
@@ -1158,7 +1574,7 @@
         "timestamp": "11:00 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1449467629881393383/1449521360152957159/image.png?ex=69a0c277&is=699f70f7&hm=fc9d76e5090d010c97d8e2c1fa0ef6407acec7c860d030e456a37c1943fec1f4&"
+          "images/1449467629881393383_1449521360152957159_image.png"
         ]
       }
     ]
@@ -1172,7 +1588,7 @@
         "timestamp": "12/13/2025 11:37 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447616528324493322/1449530676930941001/image.png?ex=69a02264&is=699ed0e4&hm=53021fe66d21ea5fdcc9bbd4dcd095f90b65e311a93aae8b092c03e7afc86be6&"
+          "images/1447616528324493322_1449530676930941001_image.png"
         ]
       },
       {
@@ -1180,7 +1596,7 @@
         "timestamp": "11:38 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447616528324493322/1449530906376274142/image.png?ex=69a0229b&is=699ed11b&hm=3594a3a400a19800770d80494308352d01cece0f1fab1814ce922412e202ea38&"
+          "images/1447616528324493322_1449530906376274142_image.png"
         ]
       },
       {
@@ -1188,7 +1604,35 @@
         "timestamp": "2/14/2026 3:50 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447616528324493322/1472243565710278953/stazeny_soubor.png?ex=69a05dab&is=699f0c2b&hm=7cd5f31609da2c5d695c5d49fe52407847b595a412ff9f4dd36e35d8b27b2f23&"
+          "images/1447616528324493322_1472243565710278953_stazeny_soubor.png"
+        ]
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "LSPD",
+        "timestamp": "",
+        "content": "",
+        "attachments": []
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD vybavení/first.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "PD vybavení/second.png"
         ]
       }
     ]
@@ -1202,7 +1646,7 @@
         "timestamp": "12/11/2025 10:47 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447695011310469343/1448793322469462097/image.png?ex=69a0bf6d&is=699f6ded&hm=82fc364fbcbef0ddfa28b4fdaeddc890504758816c3b3055110ab79cf5c7593a&"
+          "images/1447695011310469343_1448793322469462097_image.png"
         ]
       },
       {
@@ -1222,7 +1666,7 @@
         "timestamp": "12/18/2025 8:37 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1450789460051493025/1451297316421238974/image.png?ex=69a0a0f4&is=699f4f74&hm=c0da8663c9e2a5b131e11a54d8f766e6b28d88803e8c89f7a2873f1b38880e5a&"
+          "images/1450789460051493025_1451297316421238974_image.png"
         ]
       },
       {
@@ -1230,7 +1674,7 @@
         "timestamp": "8:37 PM",
         "content": "Příslušník departmentu má přísně zakázáno provádět jakékoliv úpravy na služebních vozidlech, \nje povinen udržovat vozidlo v nepoškozeném stavu, před jízdou musí zkontrolovat veškeré povinné vybavení vozidla,\ndále je povinen zaznamenat jakékoliv použití služebního vozidla a škoda způsobená vlastní chybou je placena daným příslušníkem",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1450789460051493025/1451297391046168718/image.png?ex=69a0a105&is=699f4f85&hm=b33f226d651ea43886e3367e1872b2e448d8cdab977ea9d787f486df0fb326eb&"
+          "images/1450789460051493025_1451297391046168718_image.png"
         ]
       },
       {
@@ -1244,7 +1688,7 @@
         "timestamp": "8:38 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1450789460051493025/1451297512853078127/image.png?ex=69a0a122&is=699f4fa2&hm=c6dc94b11568cb2f6af42a3571e9127b92568222c055c78a4c750c33160bc05d&"
+          "images/1450789460051493025_1451297512853078127_image.png"
         ]
       },
       {
@@ -1258,7 +1702,7 @@
         "timestamp": "8:38 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1450789460051493025/1451297612048367656/image.png?ex=69a0a13a&is=699f4fba&hm=92e7993ada9580133a1ff2313821da0b160fcc57330d451eb4d260fa7485b197&"
+          "images/1450789460051493025_1451297612048367656_image.png"
         ]
       },
       {
@@ -1278,7 +1722,7 @@
         "timestamp": "12/13/2025 11:20 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447616580417622098/1449526363752235008/image.png?ex=69a01e60&is=699ecce0&hm=68a86d31e026642cdbee08450431f95529156e803ef29e2ca1213ad543617d04&"
+          "images/1447616580417622098_1449526363752235008_image.png"
         ]
       },
       {
@@ -1286,7 +1730,23 @@
         "timestamp": "11:20 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447616580417622098/1449526467753939151/image.png?ex=69a01e78&is=699eccf8&hm=fbbea95c2445fdfe2aa54ceb848733c6b385b6a76d52db883b47326d4ee7ae4d&"
+          "images/1447616580417622098_1449526467753939151_image.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "Vybavení vozidla/first.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "Vybavení vozidla/second.png"
         ]
       }
     ]
@@ -1360,7 +1820,7 @@
         "timestamp": "12/8/2025 6:59 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1432777917875749094/1447648851308707955/image.png?ex=69a08a0e&is=699f388e&hm=cf9627d3b7dcad375b7f54fdfdeaa2773b5137ba6c27809086bd5087c6e5e71a&"
+          "images/1432777917875749094_1447648851308707955_image.png"
         ]
       },
       {
@@ -1374,7 +1834,7 @@
         "timestamp": "7:01 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1432777917875749094/1447649240300916806/image.png?ex=69a08a6a&is=699f38ea&hm=c67239f873265c6318cb9a4fbef601425a4433e62c45679d0bbdb8b62b7c0316&"
+          "images/1432777917875749094_1447649240300916806_image.png"
         ]
       },
       {
@@ -1388,7 +1848,7 @@
         "timestamp": "7:01 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1432777917875749094/1447649353899708587/image.png?ex=69a08a85&is=699f3905&hm=62deffbfac9a285e6c7b3630bc3c92860459f64bd6351c9f86a70d4b372f56ef&"
+          "images/1432777917875749094_1447649353899708587_image.png"
         ]
       },
       {
@@ -1402,7 +1862,7 @@
         "timestamp": "7:02 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1432777917875749094/1447649476800942182/image.png?ex=69a08aa3&is=699f3923&hm=34aba057758f7cb5a51ab4a7458cb42096fa278a54ef4eee6293890b13adc376&"
+          "images/1432777917875749094_1447649476800942182_image.png"
         ]
       },
       {
@@ -1416,7 +1876,7 @@
         "timestamp": "12/14/2025 5:22 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1432777917875749094/1449798622219866203/miranda-.jpg?ex=69a0732f&is=699f21af&hm=9b1eb57cc9eecd6e3f2f883cf7f45f730858edf2e1f14425ef270b51e0d2c3b6&"
+          "images/1432777917875749094_1449798622219866203_miranda-.jpg"
         ]
       }
     ]
@@ -1502,7 +1962,7 @@
         "timestamp": "12/18/2025 8:13 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1450790067957399623/1451291314963484875/image.png?ex=69a09b5d&is=699f49dd&hm=6bf468ac3b55461746a73ba4a5ad190de40224c446b35ff93e4413ac5df92072&"
+          "images/1450790067957399623_1451291314963484875_image.png"
         ]
       },
       {
@@ -1534,7 +1994,7 @@
         "timestamp": "2/5/2026 9:46 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1458592012747018294/1469071806294917335/image.png?ex=69a0b13c&is=699f5fbc&hm=e5b0611cbb43ef020fcaebff56e453dd5e513da3094f670ddac69bcaa0cf5881&"
+          "images/1458592012747018294_1469071806294917335_image.png"
         ]
       },
       {
@@ -1548,7 +2008,7 @@
         "timestamp": "9:47 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1458592012747018294/1469071890315477084/image.png?ex=69a0b150&is=699f5fd0&hm=b384cbc0de7a9912cf29de12acfb1efb9f3737fc6ba279f061d3042a033f65f6&"
+          "images/1458592012747018294_1469071890315477084_image.png"
         ]
       }
     ]
@@ -1562,7 +2022,7 @@
         "timestamp": "1/22/2026 3:10 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1458591959324295267/1463898717626302505/image.png?ex=69a0546c&is=699f02ec&hm=80c250b1117eb26f94c4d96db8ef0beff903a01199ee9b05d3c06e61b90c8547&"
+          "images/1458591959324295267_1463898717626302505_image.png"
         ]
       },
       {
@@ -1576,7 +2036,7 @@
         "timestamp": "3:11 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1458591959324295267/1463898779169325142/image.png?ex=69a0547a&is=699f02fa&hm=df162d1e3c6587e3bd1580598175e413b6e72a6984f5c0483825c593cd911f37&"
+          "images/1458591959324295267_1463898779169325142_image.png"
         ]
       }
     ]
@@ -1590,7 +2050,7 @@
         "timestamp": "1/24/2026 6:15 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1458591988424249497/1464669904769781760/image.png?ex=69a07fa5&is=699f2e25&hm=48eee28ad1030b9cdbaa48c5b4b1ec3502b3213589e067db2292adecddbec789&"
+          "images/1458591988424249497_1464669904769781760_image.png"
         ]
       },
       {
@@ -1604,7 +2064,7 @@
         "timestamp": "6:17 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1458591988424249497/1464670421814214938/image.png?ex=69a08020&is=699f2ea0&hm=2517c10915f705123443bb6e90b8fa209a8ab469baea172a0d942813b279d8a3&"
+          "images/1458591988424249497_1464670421814214938_image.png"
         ]
       }
     ]
@@ -1618,7 +2078,7 @@
         "timestamp": "2/18/2026 5:40 PM",
         "content": "# ZABLOKOVÁNÍ PURSUIT VOZIDLA",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1473720718205128956/1473720760920051817/roadblock1.png?ex=69a07769&is=699f25e9&hm=13bf1bea2085970430defa222f949da95195ed1ae77913d536794f2e4d8bfd5e&"
+          "images/1473720718205128956_1473720760920051817_roadblock1.png"
         ]
       },
       {
@@ -1626,7 +2086,7 @@
         "timestamp": "5:40 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1473720718205128956/1473720810496721122/roadblock2.png?ex=69a07775&is=699f25f5&hm=68db76cd242deb951813eb00bd9378c83156353d95a96e5aef73452d10e938a2&"
+          "images/1473720718205128956_1473720810496721122_roadblock2.png"
         ]
       }
     ]
@@ -1640,7 +2100,7 @@
         "timestamp": "1/16/2026 1:47 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694271783108689/1461703390907072522/image.png?ex=69a040dd&is=699eef5d&hm=855e44097ca42f9d5e40ae6763c8d565feb3c003a84071ff1775409eb0267cd6&"
+          "images/1447694271783108689_1461703390907072522_image.png"
         ]
       },
       {
@@ -1666,7 +2126,7 @@
         "timestamp": "1:48 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447694271783108689/1461703549711810570/image.png?ex=69a04103&is=699eef83&hm=8e773f89421a9e8c3dd171103bad40fa8e27e8cac9e6be214d9a23bc53398167&"
+          "images/1447694271783108689_1461703549711810570_image.png"
         ]
       }
     ]
@@ -1704,7 +2164,7 @@
         "timestamp": "5:42 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1471492139962728642/1473721301821820980/image.png?ex=69a077ea&is=699f266a&hm=e590b263ff593f80133c27121c68404c4e6787c3a8f2ba41b79c92439f48090f&"
+          "images/1471492139962728642_1473721301821820980_image.png"
         ]
       }
     ]
@@ -1718,7 +2178,7 @@
         "timestamp": "12/16/2025 8:31 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1450090052557213849/1450571007864737933/image.png?ex=69a09f86&is=699f4e06&hm=b97e1a5933e6206f6ec870ae775fb0e0fb0f50dd732f81f7d7ea925c9fed9afa&"
+          "images/1450090052557213849_1450571007864737933_image.png"
         ]
       },
       {
@@ -1732,7 +2192,7 @@
         "timestamp": "8:32 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1450090052557213849/1450571346617696348/image.png?ex=69a09fd7&is=699f4e57&hm=654137aad893efb52e35393796cac430a4a4b7737b21aec6251e6c8cfd793a93&"
+          "images/1450090052557213849_1450571346617696348_image.png"
         ]
       }
     ]
@@ -1758,7 +2218,7 @@
         "timestamp": "1/11/2026 1:27 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1450089947615985799/1459886389662449757/image.png?ex=69a03c26&is=699eeaa6&hm=511575eaca101f3ef509d5741c0af3578c585efadd2c25f6597d2214b7450b5e&"
+          "images/1450089947615985799_1459886389662449757_image.png"
         ]
       },
       {
@@ -1796,7 +2256,7 @@
         "timestamp": "12/14/2025 2:41 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447695333504319679/1449758220305567836/image.png?ex=69a04d8e&is=699efc0e&hm=399c1b6ef30c4d964895196276031b4f017e1314e99d5708493ddfc2774fb76a&"
+          "images/1447695333504319679_1449758220305567836_image.png"
         ]
       },
       {
@@ -1804,7 +2264,7 @@
         "timestamp": "2:41 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447695333504319679/1449758279054917683/image.png?ex=69a04d9c&is=699efc1c&hm=7de2f109a573d13c9561c09cc4a2c6c7b6bbb8baf822ae16f87e67a92c829edf&"
+          "images/1447695333504319679_1449758279054917683_image.png"
         ]
       },
       {
@@ -1818,7 +2278,7 @@
         "timestamp": "2:42 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447695333504319679/1449758398559293550/image.png?ex=69a04db9&is=699efc39&hm=4a5f338054b1d0f41654c91548d04baebc27b9aa9e418b71e31f9855e2f9b6dc&"
+          "images/1447695333504319679_1449758398559293550_image.png"
         ]
       },
       {
@@ -1832,7 +2292,7 @@
         "timestamp": "2:42 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447695333504319679/1449758545116401826/image.png?ex=69a04ddc&is=699efc5c&hm=1dc665dc239edd63512e83ceb6ee7c65f8075d9e240c1f8f104994c46d7c2d4a&"
+          "images/1447695333504319679_1449758545116401826_image.png"
         ]
       },
       {
@@ -1852,7 +2312,7 @@
         "timestamp": "12/8/2025 5:23 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447624567110500485/1447624636518109225/image.png?ex=69a07380&is=699f2200&hm=46ccc22aa3971a04f0a68be9742f2367394cd85b2f2eae48139fb40a318bdb4e&"
+          "images/1447624567110500485_1447624636518109225_image.png"
         ]
       },
       {
@@ -1860,7 +2320,7 @@
         "timestamp": "5:24 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447624567110500485/1447624991322669306/image.png?ex=69a073d5&is=699f2255&hm=ef40728bed0827df8416db031dcacb7aba170fd62f91a487a29d542f1190b36c&"
+          "images/1447624567110500485_1447624991322669306_image.png"
         ]
       },
       {
@@ -1874,7 +2334,7 @@
         "timestamp": "5:25 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447624567110500485/1447625109962621082/image.png?ex=69a073f1&is=699f2271&hm=92c1efd20e5a85e06f113dbe51f698bf52dc71d9bfc9993b84c3d8c76ed8662c&"
+          "images/1447624567110500485_1447625109962621082_image.png"
         ]
       },
       {
@@ -1888,7 +2348,7 @@
         "timestamp": "5:25 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447624567110500485/1447625259674239096/image.png?ex=69a07415&is=699f2295&hm=20c28322209ea2d2c17173919c1c7c0ca4923b29f2240658630f02ab52fba28a&"
+          "images/1447624567110500485_1447625259674239096_image.png"
         ]
       },
       {
@@ -1908,7 +2368,7 @@
         "timestamp": "12/12/2025 12:05 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447600187882078329/1448812924922630285/image.png?ex=69a028ee&is=699ed76e&hm=b22d06cf89af11cd4ee76af3cde5810b20bd00587beb0cf19759914f22f1841a&"
+          "images/1447600187882078329_1448812924922630285_image.png"
         ]
       },
       {
@@ -1916,7 +2376,7 @@
         "timestamp": "12:05 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447600187882078329/1448812987212234823/image.png?ex=69a028fd&is=699ed77d&hm=d0296c7ba2bddf807c11ce24c0ac0b7f7dd1222a55cea5183804754c3782d919&"
+          "images/1447600187882078329_1448812987212234823_image.png"
         ]
       },
       {
@@ -1930,7 +2390,7 @@
         "timestamp": "12:05 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447600187882078329/1448813066119548938/image.png?ex=69a02910&is=699ed790&hm=3a9ebff91a8afca4c785d3cbecc507174b675b5145637e4fcae3304b0d25dabc&"
+          "images/1447600187882078329_1448813066119548938_image.png"
         ]
       },
       {
@@ -1950,7 +2410,7 @@
         "timestamp": "12/14/2025 7:15 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447705955809755180/1449827036792094853/image.png?ex=69a08da6&is=699f3c26&hm=199782298083665a00cb3b2045d8b8d1f050a563a98a1984bb4f66e183536aac&"
+          "images/1447705955809755180_1449827036792094853_image.png"
         ]
       },
       {
@@ -1964,7 +2424,7 @@
         "timestamp": "7:16 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447705955809755180/1449827384491642941/image.png?ex=69a08df8&is=699f3c78&hm=99dbb06a189b381ad8a131fdc9b4013fe9b7e5af3f5c48482bf6566da9fd70d7&"
+          "images/1447705955809755180_1449827384491642941_image.png"
         ]
       }
     ]
@@ -1984,7 +2444,7 @@
         "timestamp": "3:13 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1455529428779274241/1455564487447937158/image.png?ex=69a05510&is=699f0390&hm=6e886222e245c4fc784e1565f4b9b3b78aa672da55e91b2a26712c18ea51d8d1&"
+          "images/1455529428779274241_1455564487447937158_image.png"
         ]
       },
       {
@@ -1992,7 +2452,7 @@
         "timestamp": "3:13 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1455529428779274241/1455564529772789937/image.png?ex=69a0551a&is=699f039a&hm=ae80660827a821b81f89b1a73400b491db5d62954e2262ce695738c32f1638d6&"
+          "images/1455529428779274241_1455564529772789937_image.png"
         ]
       }
     ]
@@ -2018,7 +2478,7 @@
         "timestamp": "12/14/2025 12:21 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706427924807835/1449541790574051509/18.webp?ex=69a02cbe&is=699edb3e&hm=95678b457b7200b812fe823a5206dc51c7ff61324ce95e6e4e76d38e8e2c7695&"
+          "images/1447706427924807835_1449541790574051509_18.webp"
         ]
       },
       {
@@ -2026,14 +2486,16 @@
         "timestamp": "1/7/2026 11:55 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706427924807835/1458594925196349501/image.png?ex=69a026a1&is=699ed521&hm=a99fd2ff73583ea23af7b63de9416768b5ceeb5c60ef19180f7032d83e96bf44&"
+          "images/1447706427924807835_1458594925196349501_image.png"
         ]
       },
       {
         "author": "Valtor",
         "timestamp": "2/7/2026 4:56 PM",
         "content": "PLAIN LANGUAGE COMMUNICATION\ntradiční desítkové kódy (10-codes) vznikly v době špatné kvality přenosu\ndnes jsou však považovány za zastaralé a při spolupráci více složek za rizikové\nstandardy NIMS vyžadují čistou mluvu kvůli srozumitelnosti\nkrizové situace vedou k zapomenutí kódu, zatímco mluvit svým jazykem je přirozené\nrádiové frekvence jsou otevřené, široká veřejnost význam kódů už dávno zná\nhlášení vyžaduje pravidla (ABC), to znamená přesnost stručnost a srozumitelnost\nnicméně je stále výjimka u Code 1, Code 2, Code 3, apod..\n(např. \"Lincoln-12, potřebuji asistenci na Rocksford Dr, napadení officera\")",
-        "attachments": []
+        "attachments": [
+          "rádiové kódy/second.png"
+        ]
       }
     ]
   },
@@ -2046,7 +2508,7 @@
         "timestamp": "12/12/2025 12:16 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447600549930205366/1448815824168161290/image.png?ex=69a02ba2&is=699eda22&hm=4ddf9a11e930527305fa19f891b2bc789ae30f6079e5a8b560a6a7a153c576b1&"
+          "images/1447600549930205366_1448815824168161290_image.png"
         ]
       },
       {
@@ -2054,49 +2516,71 @@
         "timestamp": "12:17 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447600549930205366/1448815867277082664/image.png?ex=69a02bac&is=699eda2c&hm=7c7bba91ddc5611224bcf3d26521711ce5557991ca223648bb4e13be605e1c22&"
+          "images/1447600549930205366_1448815867277082664_image.png"
         ]
       },
       {
         "author": "Valtor",
         "timestamp": "12:17 AM",
         "content": "„Já, [jméno], slavnostně přísahám, že budu podporovat a bránit Ústavu Spojených států amerických a Ústavu \nstátu San Andreas proti všem nepřátelům, zahraničním i domácím, že budu zachovávat opravdovou víru a věrnost \nÚstavě Spojených států a Ústavě státu San Andreas, že tento závazek přijímám svobodně, bez jakýchkoli duševních výhrad \nnebo úmyslu se mu vyhnout a že budu řádně a věrně vykonávat povinnosti úřadu, do kterého právě vstupuji.“",
-        "attachments": []
+        "attachments": [
+          "služební slib/first.png"
+        ]
       },
       {
         "author": "Valtor",
         "timestamp": "12:17 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447600549930205366/1448815917248020550/image.png?ex=69a02bb8&is=699eda38&hm=550a16ee20e52879c1aa0199c517cc05d699cd41c524712a98c6f4affbe60945&"
+          "images/1447600549930205366_1448815917248020550_image.png"
         ]
       },
       {
         "author": "Valtor",
         "timestamp": "12:17 AM",
         "content": "před nástupem do funkce, tj. ještě před tím, než osoba začne vykonávat jakoukoli pravomoc\ntěsně před prvním pracovním dnem, musí být složena před prvním výkonem pravomoci policisty",
-        "attachments": []
+        "attachments": [
+          "služební slib/second.png"
+        ]
       },
       {
         "author": "Valtor",
         "timestamp": "12:17 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447600549930205366/1448816004003270776/image.png?ex=69a02bcd&is=699eda4d&hm=d1ac4246c9bdbca2f8224c7bdc0812127e1ae253d3d8974e66676fd6af864040&"
+          "images/1447600549930205366_1448816004003270776_image.png"
         ]
       },
       {
         "author": "Valtor",
         "timestamp": "12:17 AM",
         "content": "na policejní stanici při nástupu, na úřadě města nebo při oficiálním ceremoniálu přijetí do služby\nmusí být uložená, písemně podepsaná osobou a podepsaná úřední osobou, která přísahu přijala",
-        "attachments": []
+        "attachments": [
+          "služební slib/fourth.png"
+        ]
       },
       {
         "author": "Valtor",
         "timestamp": "12/14/2025 12:32 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447600549930205366/1449544534655504586/image.png?ex=69a02f4c&is=699eddcc&hm=123378d71a79afee5ab13a7b2c2c99096f4f482ac2afc23e59d2f8defd18e704&"
+          "images/1447600549930205366_1449544534655504586_image.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "služební slib/fifth.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "služební slib/thirth.png"
         ]
       }
     ]
@@ -2110,7 +2594,7 @@
         "timestamp": "12/16/2025 6:52 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1449758625202704484/1450546138749993052/image.png?ex=69a0885d&is=699f36dd&hm=3b59f893ae08b0154f07450ca74cfd1aae34fc524fa24321eed118c083d9ebcf&"
+          "images/1449758625202704484_1450546138749993052_image.png"
         ]
       },
       {
@@ -2118,7 +2602,7 @@
         "timestamp": "6:52 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1449758625202704484/1450546181619847192/image.png?ex=69a08867&is=699f36e7&hm=13af9ccaaad463e6db0eefd530c95f146b176b4949ef150f0ea646bfcea363aa&"
+          "images/1449758625202704484_1450546181619847192_image.png"
         ]
       },
       {
@@ -2132,7 +2616,7 @@
         "timestamp": "6:53 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1449758625202704484/1450546360305713252/image.png?ex=69a08892&is=699f3712&hm=4e2cd03155926d2c4de2667bf02a1dfaaf7ed330b30cb73d52f760ffabdb63a5&"
+          "images/1449758625202704484_1450546360305713252_image.png"
         ]
       },
       {
@@ -2152,7 +2636,7 @@
         "timestamp": "12/8/2025 11:39 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1432052774681575556/1447719259382878239/image.png?ex=69a022e0&is=699ed160&hm=ead6e757f5f79e785ba851b556c631dabedc68c94b53990c467ffe292177f7fd&"
+          "images/1432052774681575556_1447719259382878239_image.png"
         ]
       },
       {
@@ -2160,28 +2644,40 @@
         "timestamp": "11:39 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1432052774681575556/1447719316488196157/image.png?ex=69a022ee&is=699ed16e&hm=cc187d4f8ad20c277e8fc61ad24231063abe2104a412ee60174e651e2f99664f&"
+          "images/1432052774681575556_1447719316488196157_image.png"
         ]
       },
       {
         "author": "Valtor",
         "timestamp": "11:39 PM",
         "content": "ZAJIŠTĚNÍ OSOBY - TERRY RESTRAINT\nkrátkodobé omezení kvůli zjištění totožnosti nebo zajištění bezpečnosti\nZADRŽENÍ OSOBY - TERRY STOP\nkrátkodobé omezení svobody, musí být reasonable suspicion, ne „probable cause“ (nemůžeme nasadit pouta)\nZATČENÍ OSOBY - ARREST\nmusí být probable cause, že osoba spáchala trestný čin, nebo na základě arrest warrantu",
-        "attachments": []
+        "attachments": [
+          "typy omezeni/first.png"
+        ]
       },
       {
         "author": "Valtor",
         "timestamp": "11:40 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1432052774681575556/1447719400932380783/image.png?ex=69a02302&is=699ed182&hm=5690d3790d707db22bfc0ba9b21158e90b2787ad4137267ec97368e9e95f5e42&"
+          "images/1432052774681575556_1447719400932380783_image.png"
         ]
       },
       {
         "author": "Valtor",
         "timestamp": "11:40 PM",
         "content": "Zatčená osoba může být v holding cele držena nejdéle 48 hodin\nDo skončení této doby musí být vzneseno obvinění, jinak musí být osoba propuštěna\nPři schválení soudu o prodloužení vazby může být osoba v holding cele držena dalších 48 hodin\nBěhem eskorty musí být osoba poučena o převozu a chování (\"Během převozu na stanici se chovejte slušně a nedělejte žádné prudké pohyby\")\nMůže mi policie prohledat vozidlo?\nPouze v případě, že má policista probable cause (důkaz trestné činnosti), \ntak může vozidlo prohledat bez soudního příkazu, na základě důvodného podezření se vozidlo neprohledává",
-        "attachments": []
+        "attachments": [
+          "typy omezeni/second.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "typy omezeni/thirth.png"
+        ]
       }
     ]
   },
@@ -2194,7 +2690,7 @@
         "timestamp": "2/12/2026 2:29 PM",
         "content": "HLÁŠENÍ JEDNOTEK - UNIT CHECKS\n.\nPokud jsou spolu na hlídkové činnosti členové z odlišných departmentů, hlásí se stejně\nPokud jste ve vrtulníku jako vzdušná podpora, hlásíte pod volacím znakem \"AIR-1\"\nNedoporučuje se jezdit v počtu 4 lidech s výjímkou zásahů z důvodu převozu zatčené osoby\nPřed zahájením služebních úkonů si svoji jednotku evidujete v MDT nebo Dispatch menu\n.",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1471498010096701510/1471498458623115315/image.png?ex=69a04abb&is=699ef93b&hm=4466c854e672efde83cb8790c0217609f9a649b44a99573f1cdbd329dab2ff96&"
+          "images/1471498010096701510_1471498458623115315_image.png"
         ]
       }
     ]
@@ -2208,7 +2704,7 @@
         "timestamp": "12/14/2025 2:48 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706068812566600/1449759859892420638/image.png?ex=69a04f15&is=699efd95&hm=3a8c8a435e4369f3cc37f91c6fd652eddcbf86faf479b14fbc3eab4c50920ff1&"
+          "images/1447706068812566600_1449759859892420638_image.png"
         ]
       },
       {
@@ -2216,7 +2712,7 @@
         "timestamp": "2:48 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706068812566600/1449759913260875876/image.png?ex=69a04f22&is=699efda2&hm=4a790b3b887d4e35535c95a8886cacf0610f02cce636fc753872fe0af739b052&"
+          "images/1447706068812566600_1449759913260875876_image.png"
         ]
       },
       {
@@ -2230,7 +2726,7 @@
         "timestamp": "2:48 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706068812566600/1449759977320485006/image.png?ex=69a04f31&is=699efdb1&hm=2a1f0e291ff2cb9dca7f2e08b28a91f4643f142ef3f67be40652106778106c34&"
+          "images/1447706068812566600_1449759977320485006_image.png"
         ]
       },
       {
@@ -2244,7 +2740,7 @@
         "timestamp": "2:48 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706068812566600/1449760026712342609/image.png?ex=69a04f3d&is=699efdbd&hm=5bd0414a3a03bede40f4bb84e44f37a75ce03f93c691995301b5a526cc2ec23c&"
+          "images/1447706068812566600_1449760026712342609_image.png"
         ]
       },
       {
@@ -2258,7 +2754,7 @@
         "timestamp": "2:50 PM",
         "content": ".\nvzorový příklad",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706068812566600/1449760503457911048/image.png?ex=69a04faf&is=699efe2f&hm=4be250b0b434181e569c24f1569400c25e6bbb6f9d8f1eadc1406f057d3b2572&"
+          "images/1447706068812566600_1449760503457911048_image.png"
         ]
       }
     ]
@@ -2278,7 +2774,7 @@
         "timestamp": "2/12/2026 2:32 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706368336330752/1471499189673267230/image.png?ex=69a04b69&is=699ef9e9&hm=817cefda6e5aa910ddd294dfa3421dd2dbe748a060872803d04f7699df9a351f&"
+          "images/1447706368336330752_1471499189673267230_image.png"
         ]
       }
     ]
@@ -2292,7 +2788,7 @@
         "timestamp": "12/10/2025 12:04 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706024164327546/1448088044824690728/image.png?ex=69a028d6&is=699ed756&hm=1cf40835d4a0c56c84349086098c9c7faa5b8880656af363f7f20fd54e8d78fe&"
+          "images/1447706024164327546_1448088044824690728_image.png"
         ]
       },
       {
@@ -2300,14 +2796,24 @@
         "timestamp": "12:05 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706024164327546/1448088133563580490/image.png?ex=69a028eb&is=699ed76b&hm=e360f24df91bdce26681c0516e0ed2c8badb4b1c0dcc976c923357e223f70670&"
+          "images/1447706024164327546_1448088133563580490_image.png"
         ]
       },
       {
         "author": "Valtor",
         "timestamp": "12:06 AM",
         "content": "S PŘEDVOLÁNÍM\nNa vysílačce jste vyzván, ať se dostavíte do kanceláře.\nZaklepání, vyčkat na povolení vstupu.\nOslovení, představení hodnost, jméno, žádost\nPříklad: ***“Dobrý den kapitáne, \n                Police Officer II, James Brown \n                dostavil jsem se na Váš rozkaz”***\nZdravíte všechny hodnosti v kanceláři -\nod nejvyšší po nejnižší\nBEZ PŘEDVOLÁNÍ\nPostup se neliší, jediné v čem je rozdíl je v žádosti.\nZaklepání, vyčkat na povolení vstupu.\nOslovení, představení hodnost, jméno, žádost\nPříklad:  ***\"Dobrý den kapitáne, \n                Police Officer II, James Brown  \n                dovolte mi promluvit..”***\nNÁSLEDNÝ ODCHOD\nOslovení, žádost\nPříklad:\n“Kapitáne, dovolte mi odejít”",
-        "attachments": []
+        "attachments": [
+          "vstup kancelář/first.png"
+        ]
+      },
+      {
+        "author": "Valtor",
+        "timestamp": "",
+        "content": "",
+        "attachments": [
+          "vstup kancelář/second.png"
+        ]
       }
     ]
   },
@@ -2320,7 +2826,7 @@
         "timestamp": "12/17/2025 10:52 AM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1450781053039153254/1450787827179720799/image.png?ex=69a0c0b4&is=699f6f34&hm=1e8ad2545f090e0a55d56223b12c1248617663329c84abfd1ffa3734ed37568d&"
+          "images/1450781053039153254_1450787827179720799_image.png"
         ]
       },
       {
@@ -2340,7 +2846,7 @@
         "timestamp": "12/14/2025 4:19 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706126173999104/1449782826714005808/image.png?ex=69a06479&is=699f12f9&hm=1c44f89f819e280b5cafc9d87419014c9056bade8eb1134da661e37192501f6c&"
+          "images/1447706126173999104_1449782826714005808_image.png"
         ]
       },
       {
@@ -2348,7 +2854,7 @@
         "timestamp": "4:19 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706126173999104/1449782892187226293/image.png?ex=69a06489&is=699f1309&hm=5f7fff1de67e32990a9de5ee2a3cf9ee84e297db418725b161b8c14ffda22ade&"
+          "images/1447706126173999104_1449782892187226293_image.png"
         ]
       },
       {
@@ -2362,7 +2868,7 @@
         "timestamp": "4:20 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706126173999104/1449783058961006622/image.png?ex=69a064b0&is=699f1330&hm=9a406cb719497c5476740c0d9d2bfab046fdcface3453adba8fe38b362616692&"
+          "images/1447706126173999104_1449783058961006622_image.png"
         ]
       },
       {
@@ -2370,7 +2876,7 @@
         "timestamp": "4:20 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706126173999104/1449783089097080903/image.png?ex=69a064b8&is=699f1338&hm=0880625768dbb8c1ca4580c3b3be37c1396d503a0f1ae2091539e4a59c2a2f4e&"
+          "images/1447706126173999104_1449783089097080903_image.png"
         ]
       },
       {
@@ -2384,7 +2890,7 @@
         "timestamp": "4:21 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706126173999104/1449783411077288066/image.png?ex=69a06504&is=699f1384&hm=ae7ed20c2063e72cb6f670c81e41feabcd05af25419ba67bac6f507d55d9dae2&"
+          "images/1447706126173999104_1449783411077288066_image.png"
         ]
       },
       {
@@ -2392,7 +2898,7 @@
         "timestamp": "4:21 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1447706126173999104/1449783446762291443/image.png?ex=69a0650d&is=699f138d&hm=a279ddc1a6c03ce0e0b6eece820ff9320bd22367a407399131a857b9fa838d20&"
+          "images/1447706126173999104_1449783446762291443_image.png"
         ]
       }
     ]
@@ -2418,7 +2924,7 @@
         "timestamp": "1/11/2026 12:29 PM",
         "content": "",
         "attachments": [
-          "https://cdn.discordapp.com/attachments/1456264402058739874/1459871893296517342/image.png?ex=69a02ea6&is=699edd26&hm=c00b41fd26f7adfdb6aadecbb221a7fd872d9e5c0e0086ee66a893359f364e1d&"
+          "images/1456264402058739874_1459871893296517342_image.png"
         ]
       },
       {
