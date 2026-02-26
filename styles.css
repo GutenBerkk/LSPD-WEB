@@ -1,5 +1,5 @@
 /* ================================================================
-   LSPD TRAINING TERMINAL — DARK THEME v3.0
+   LSPD TRAINING TERMINAL â€” DARK THEME v3.0
    ================================================================ */
 
 :root {
@@ -43,7 +43,7 @@ body {
   background-size: 100% 100%, 48px 48px, 48px 48px;
 }
 
-/* ── TOPBAR ─────────────────────────────────────────────────── */
+/* â”€â”€ TOPBAR â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 #topbar {
   position: sticky;
   top: 0;
@@ -149,7 +149,7 @@ body {
   color: var(--bad);
 }
 
-/* ── LAYOUT ─────────────────────────────────────────────────── */
+/* â”€â”€ LAYOUT â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .container {
   max-width: 1040px;
   margin: 28px auto;
@@ -164,7 +164,7 @@ body {
   display: block;
 }
 
-/* ── CARDS ──────────────────────────────────────────────────── */
+/* â”€â”€ CARDS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .gsap-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -175,7 +175,7 @@ body {
   will-change: transform, opacity;
 }
 
-/* ── VIEW HEADER ─────────────────────────────────────────────── */
+/* â”€â”€ VIEW HEADER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .viewHeader {
   margin-bottom: 24px;
 }
@@ -195,7 +195,7 @@ body {
   font-size: 14px;
 }
 
-/* ── GRID: CATEGORIES & MODULES ──────────────────────────────── */
+/* â”€â”€ GRID: CATEGORIES & MODULES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .categoryGrid,
 .moduleGrid {
   display: grid;
@@ -269,7 +269,7 @@ body {
   color: var(--muted);
 }
 
-/* ── BACK BUTTON ─────────────────────────────────────────────── */
+/* â”€â”€ BACK BUTTON â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .btnBack {
   background: transparent;
   border: 1px solid var(--border);
@@ -288,7 +288,7 @@ body {
   color: var(--primary);
 }
 
-/* ── WORKSPACE ───────────────────────────────────────────────── */
+/* â”€â”€ WORKSPACE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .workspaceHeader {
   margin-bottom: 20px;
 }
@@ -343,7 +343,7 @@ body {
   display: block;
 }
 
-/* ── HEATMAP ─────────────────────────────────────────────────── */
+/* â”€â”€ HEATMAP â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .moduleHeatGrid {
   display: flex;
   flex-wrap: wrap;
@@ -360,7 +360,7 @@ body {
   transition: all 0.25s;
 }
 
-/* ── STUDY CONTROLS ──────────────────────────────────────────── */
+/* â”€â”€ STUDY CONTROLS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .studyControls {
   display: flex;
   gap: 12px;
@@ -386,7 +386,7 @@ body {
   border-color: var(--primary);
 }
 
-/* ── STUDY LIST ROWS ─────────────────────────────────────────── */
+/* â”€â”€ STUDY LIST ROWS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .row {
   background: rgba(13, 17, 23, 0.8);
   border: 1px solid var(--border);
@@ -423,51 +423,70 @@ body {
 }
 
 .meaningCol {
-  line-height: 1.75;
+  line-height: 1.8;
   color: var(--text);
-  font-size: 14px;
+  font-size: 14.5px;
 }
 
-.hidden-meaning {
-  display: block;
-  opacity: 0;
-  filter: blur(8px);
-  transition: all 0.3s;
-}
-
-.hidden-meaning.visible {
-  opacity: 1;
-  filter: blur(0);
-}
-
-.btnReveal {
-  background: var(--bg-dark);
-  border: 1px solid var(--border);
-  color: var(--text-dim);
-  padding: 0 18px;
+/* â”€â”€ HPILL CUSTOM TOOLTIP (via JS tooltip div) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+#hpillTooltip {
+  position: fixed;
+  z-index: 9999;
+  background: var(--bg-card);
+  border: 1px solid var(--border-hov);
   border-radius: 8px;
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 13px;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  white-space: nowrap;
-  transition: all 0.2s;
+  padding: 10px 14px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--text);
+  max-width: 260px;
+  pointer-events: none;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 0.15s;
+  white-space: pre-line;
 }
 
-.btnReveal:hover {
-  border-color: var(--primary);
+#hpillTooltip b {
   color: var(--primary);
+  display: block;
+  margin-bottom: 4px;
 }
 
-.btnReveal.revealed {
-  background: var(--primary);
-  color: #fff;
-  border-color: var(--primary);
+#hpillTooltip small {
+  color: var(--muted);
+  display: block;
+  margin-top: 4px;
 }
 
-/* ── ATTACHMENTS ─────────────────────────────────────────────── */
+.hpill {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  transition: all 0.25s;
+  cursor: pointer;
+}
+
+.hpill:hover {
+  transform: scale(1.5);
+  z-index: 10;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* -- CURSOR GLOW -- */
+#cursorGlow {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9000;
+  width: 550px; height: 550px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(59,130,246,0.07) 0%, transparent 65%);
+  transform: translate(-50%, -50%);
+  transition: left 0.1s ease-out, top 0.1s ease-out;
+}
+
+/* â”€â”€ ATTACHMENTS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .attachments {
   margin-top: 12px;
   display: flex;
@@ -489,7 +508,7 @@ body {
   border-color: var(--primary);
 }
 
-/* ── TEST MODE ───────────────────────────────────────────────── */
+/* â”€â”€ TEST MODE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .testMain,
 .testResults {}
 
@@ -616,7 +635,7 @@ body {
   color: var(--text);
 }
 
-/* ── TEST RESULTS ─────────────────────────────────────────────── */
+/* â”€â”€ TEST RESULTS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .testResults {
   text-align: center;
   padding: 40px 0;
@@ -650,7 +669,7 @@ body {
   text-align: center;
 }
 
-/* ── ANALYSIS ─────────────────────────────────────────────────── */
+/* â”€â”€ ANALYSIS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 #analysisBody {
   min-height: 300px;
 }
@@ -760,7 +779,7 @@ body {
   color: var(--text-dim);
 }
 
-/* ── FOOTER ───────────────────────────────────────────────────── */
+/* â”€â”€ FOOTER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .footer {
   display: flex;
   align-items: center;
@@ -793,7 +812,7 @@ body {
   box-shadow: 0 0 8px var(--primary);
 }
 
-/* ── RESPONSIVE ───────────────────────────────────────────────── */
+/* â”€â”€ RESPONSIVE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 @media (max-width: 768px) {
 
   .categoryGrid,

@@ -1,0 +1,163 @@
+﻿[otisky-prst┼»] 1447693596156362813_1466066328858132661_image_1.pn
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[z├íznamy-stop] 1447693633716490281_1451695807920341022_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[z├íznamy-stop] 1447693633716490281_1451695843571793940_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[z├íznamy-stop] 1447693633716490281_1451695886575861881_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[z├íznamy-stop] 1447693633716490281_1451695983262961910_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[aed-defibrilator] 1447616612633940040_1449470339976265748_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[chest-seal-disk] 1447689384324370573_1449470383320469554_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[dopravn├¡-nehoda] 1447693339855159459_1449470599666597919_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[it-clamp] 1447689521234968799_1449470448067809513_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[otev┼Öen├í-zlomenina] 1447693463276748910_1449470683724648520_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[st┼Öeln├⌐-poran─¢n├¡] 1447693383958134904_1449470640343089378_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[hodnosti-insignie] 1447694864346251464_1449461787303870698_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[hodnosti-insignie] 1447694864346251464_1449461824511807679_hodnosti-l
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[hodnosti-insignie] 1447694864346251464_1449462559949459557_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[hodnosti-insignie] 1447694864346251464_1449462802094882846_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[lov-zv─¢┼Öe] 1447694945929527328_1449458400558584038_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[lov-zv─¢┼Öe] 1447694945929527328_1449458538446590173_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[lov-zv─¢┼Öe] 1447694945929527328_1449458754398453952_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[lov-zv─¢┼Öe] 1447694945929527328_1449458875177631804_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[ozbrojen├⌐-slo┼╛ky] 1447694916611473449_1449452518043287612_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[ozbrojen├⌐-slo┼╛ky] 1447694916611473449_1449452589694320722_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[rozd─¢len├¡-los-santos] 1469719444132462771_1469719589200986202_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[seznam-diviz├¡] 1450970223053377546_1450970251092168724_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[seznam-diviz├¡] 1450970223053377546_1450970499650949163_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[seznam-diviz├¡] 1450970223053377546_1450970759194349760_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[seznam-diviz├¡] 1450970223053377546_1450970902593540136_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[sgt-zkou┼íky] 1449459044824912048_1449503281020665937_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[sgt-zkou┼íky] 1449459044824912048_1449503317037285526_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[slu┼╛ebn├¡-odznaky] 1449467629881393383_1449521309099757799_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[slu┼╛ebn├¡-odznaky] 1449467629881393383_1449521360152957159_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[slu┼╛ebn├¡-vybaven├¡] 1447616528324493322_1472243565710278953_stazeny_so
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[syst├⌐m-akademie] 1447695011310469343_1448793322469462097_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[vozov├╜-park] 1450789460051493025_1451297316421238974_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[vozov├╜-park] 1450789460051493025_1451297512853078127_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[vozov├╜-park] 1450789460051493025_1451297612048367656_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[miranda-rights] 1432777917875749094_1447648851308707955_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[miranda-rights] 1432777917875749094_1447649240300916806_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[miranda-rights] 1432777917875749094_1447649353899708587_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[miranda-rights] 1432777917875749094_1447649476800942182_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[miranda-rights] 1432777917875749094_1449798622219866203_miranda-.j
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[vstup-na-pozemek] 1450790067957399623_1451291314963484875_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[box-maneuver] 1458592012747018294_1469071806294917335_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[box-maneuver] 1458592012747018294_1469071890315477084_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[felony-stop] 1458591959324295267_1463898717626302505_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[felony-stop] 1458591959324295267_1463898779169325142_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[pit-maneuver] 1458591988424249497_1464669904769781760_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[pit-maneuver] 1458591988424249497_1464670421814214938_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[road-block] 1473720718205128956_1473720810496721122_roadblock2
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[traffic-stop] 1447694271783108689_1461703390907072522_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[traffic-stop] 1447694271783108689_1461703549711810570_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[zaji┼ít─¢n├¡-perimetru] 1471492139962728642_1473721301821820980_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[body-worn-camera] 1450090052557213849_1450571007864737933_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[body-worn-camera] 1450090052557213849_1450571346617696348_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[donucovac├¡-prost┼Öedky] 1447695333504319679_1449758220305567836_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[donucovac├¡-prost┼Öedky] 1447695333504319679_1449758279054917683_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[donucovac├¡-prost┼Öedky] 1447695333504319679_1449758398559293550_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[donucovac├¡-prost┼Öedky] 1447695333504319679_1449758545116401826_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[etick├╜-kodex] 1447624567110500485_1447624636518109225_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[etick├╜-kodex] 1447624567110500485_1447624991322669306_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[etick├╜-kodex] 1447624567110500485_1447625109962621082_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[etick├╜-kodex] 1447624567110500485_1447625259674239096_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[pou─ìen├¡-interakce] 1447705955809755180_1449827036792094853_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[pou─ìen├¡-interakce] 1447705955809755180_1449827384491642941_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[p┼Öehled-uniformy] 1455529428779274241_1455564487447937158_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[p┼Öehled-uniformy] 1455529428779274241_1455564529772789937_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[smrt├¡c├¡-s├¡la] 1449758625202704484_1450546138749993052_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[smrt├¡c├¡-s├¡la] 1449758625202704484_1450546181619847192_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[smrt├¡c├¡-s├¡la] 1449758625202704484_1450546360305713252_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[ve┼Öejn├⌐-hl├í┼íen├¡] 1447706068812566600_1449759859892420638_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[ve┼Öejn├⌐-hl├í┼íen├¡] 1447706068812566600_1449759913260875876_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[ve┼Öejn├⌐-hl├í┼íen├¡] 1447706068812566600_1449759977320485006_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[ve┼Öejn├⌐-hl├í┼íen├¡] 1447706068812566600_1449760026712342609_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[volac├¡-znaky] 1447706368336330752_1471499189673267230_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[vzhled-officera] 1450781053039153254_1450787827179720799_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[zkratky-pojmy] 1447706126173999104_1449782826714005808_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[zkratky-pojmy] 1447706126173999104_1449782892187226293_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[zkratky-pojmy] 1447706126173999104_1449783058961006622_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[zkratky-pojmy] 1447706126173999104_1449783089097080903_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[zkratky-pojmy] 1447706126173999104_1449783411077288066_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[zkratky-pojmy] 1447706126173999104_1449783446762291443_image.png
+  ERR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+Analyzed: 0  Skipped: 11  Errors: 80
+data.json updated!

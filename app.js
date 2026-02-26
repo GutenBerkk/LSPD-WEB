@@ -182,9 +182,32 @@
       const pill = document.createElement("div");
       pill.className = "hpill";
       pill.style.background = rate < 0 ? "rgba(255,255,255,0.05)" : rate >= 0.6 ? "#ef4444" : rate >= 0.35 ? "#f59e0b" : "#22c55e";
-      pill.title = truncate(item.content, 60);
+
+      // Rich tooltip: module name + question number + content preview + stats
+      const statLabel = s.total === 0 ? "Neodpovězeno" : `${s.correct}/${s.total} správně (${Math.round((s.correct / s.total) * 100)}%)`;
+      const preview = truncate(item.content, 80).replace(/\n/g, " ");
+      pill.setAttribute("data-tooltip", `#${i + 1} — ${activeModule}\n${preview}\n${statLabel}`);
+      pill.title = `#${i + 1} ${activeModule}: ${preview} — ${statLabel}`;
+
+      // Click to jump to question
+      pill.style.cursor = "pointer";
+      pill.onclick = () => {
+        showModuleTab("test");
+        setTimeout(() => {
+          testQueue = [i, ...shuffle(activeTestItems.map((_, j) => j).filter(j => j !== i))];
+          testIdx = 0;
+          nextQuestion();
+        }, 50);
+      };
       grid.appendChild(pill);
     });
+  }
+
+  // Convert Discord CDN URL to local path
+  function localImagePath(url) {
+    const m = url.match(/\/attachments\/(\d+)\/(\d+)\/([^?]+)/);
+    if (m) return `images/${m[1]}_${m[2]}_${m[3]}`;
+    return url; // fallback to CDN
   }
 
   function renderModuleStudy() {
@@ -194,24 +217,23 @@
       const row = document.createElement("div");
       row.className = "row gsap-card";
 
-      // Only show author label — no timestamps in UI to keep it clean
-      let headerHtml = `<div class="msgHeader"><span class="msgAuthor">LSPD MATERIÁLY</span></div>`;
-
       let contentHtml = "";
       if (item.content && item.content.trim()) {
-        contentHtml = `<span class="hidden-meaning">${item.content.replace(/\n/g, "<br>")}</span>`;
+        // Always visible — no hidden/blur
+        contentHtml = `<div class="meaningCol">${item.content.replace(/\n/g, "<br>")}</div>`;
       }
 
       let attachmentsHtml = "";
       if (item.attachments && item.attachments.length > 0) {
-        attachmentsHtml = `<div class="attachments">${item.attachments.map(url =>
-          `<img src="${url}" class="studyImg" loading="lazy" onclick="window.open('${url}')">`
-        ).join("")}</div>`;
+        attachmentsHtml = `<div class="attachments">${item.attachments.map(url => {
+          const local = localImagePath(url);
+          return `<img src="${local}" class="studyImg" loading="lazy" onclick="window.open('${local}')" onerror="this.src='${url}'">`;
+        }).join("")}</div>`;
       }
 
-      if (!contentHtml && !attachmentsHtml) return; // skip fully empty rows
+      if (!contentHtml && !attachmentsHtml) return;
 
-      row.innerHTML = `${headerHtml}<div class="meaningCol">${contentHtml}${attachmentsHtml}</div>`;
+      row.innerHTML = contentHtml + attachmentsHtml;
       list.appendChild(row);
     });
   }
@@ -436,13 +458,7 @@
     });
   };
 
-  let revealed = false;
-  $("btnModuleReveal").onclick = () => {
-    revealed = !revealed;
-    document.querySelectorAll(".hidden-meaning").forEach(m => m.classList.toggle("visible", revealed));
-    $("btnModuleReveal").textContent = revealed ? "🙈 Skrýt" : "👁 Odhalit vše";
-    $("btnModuleReveal").classList.toggle("revealed", revealed);
-  };
+  // Reveal button removed — content is always visible
 
   $("btnResetAll").onclick = () => {
     if (confirm("Resetovat veškerý postup? Tato akce je nevratná.")) {
