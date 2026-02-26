@@ -4,61 +4,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LSPD Training Terminal - Valtor Edition</title>
+  <title>LSPD Training Terminal — Valtor Edition</title>
+  <meta name="description" content="LEO & PRÁVNÍ PŘÍRUČKA Training Terminal – Moderní výcvikový systém pro LSPD.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Rajdhani:wght@500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Rajdhani:wght@500;600;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 </head>
 
 <body>
+  <!-- ── TOP BAR ──────────────────────────────────────────── -->
   <div id="topbar">
     <div class="topbarLeft">
       <div class="statusDot"></div>
       <div class="statusLabel">LSPD TERM-04 // SECURED</div>
     </div>
+
     <div class="tabs">
       <button id="btnGoHome" class="tab active" onclick="goBack('dashboard')">
         <span class="tabIcon">🏠</span>
         <span class="tabLabel">Dashboard</span>
       </button>
-      <button id="btnGoAnalysis" class="tab" onclick="show('analysis')">
+      <button id="btnGoAnalysis" class="tab" onclick="show('panelAnalysis')">
         <span class="tabIcon">📈</span>
         <span class="tabLabel">Analýza</span>
       </button>
     </div>
+
     <div class="topbarRight">
-      <button id="btnResetAll" class="btnIcon" title="Resetovat vše">🗑️</button>
+      <button id="btnResetAll" class="btnIcon" title="Resetovat veškerý postup">🗑️</button>
     </div>
   </div>
 
   <div class="container">
-    <!-- DASHBOARD: Category Selection -->
+
+    <!-- DASHBOARD -->
     <main id="panelDashboard" class="panel active">
       <div class="viewHeader gsap-card">
         <h1>Výcvikový Terminál</h1>
         <p>Vyberte operační oblast pro zahájení simulace</p>
       </div>
-      <div id="categoryGrid" class="categoryGrid">
-        <!-- JS generates cards here -->
-      </div>
+      <div id="categoryGrid" class="categoryGrid"></div>
     </main>
 
-    <!-- MODULE LIST: Selection within Category -->
+    <!-- CATEGORY: module list -->
     <main id="panelCategory" class="panel">
       <div class="viewHeader gsap-card">
         <button class="btnBack" onclick="goBack('dashboard')">← Zpět na dashboard</button>
         <h1 id="categoryTitle">Kategorie</h1>
       </div>
-      <div id="moduleGrid" class="moduleGrid">
-        <!-- JS generates cards here -->
-      </div>
+      <div id="moduleGrid" class="moduleGrid"></div>
     </main>
 
-    <!-- MODULE WORKSPACE: Study + Test + Heatmap for specific module -->
+    <!-- WORKSPACE: study + test -->
     <main id="panelWorkspace" class="panel">
       <div class="workspaceHeader gsap-card">
         <div class="workspaceHeaderTop">
@@ -69,11 +70,10 @@
             <button id="tabModuleTest" class="wTab" onclick="showModuleTab('test')">Test</button>
           </div>
         </div>
-
         <div id="moduleHeatmap" class="moduleHeatGrid"></div>
       </div>
 
-      <!-- Study Sub-Panel -->
+      <!-- Study -->
       <section id="moduleStudy" class="moduleSubPanel active">
         <div class="studyControls gsap-card">
           <input type="text" id="moduleSearch" placeholder="Hledat v modulu...">
@@ -82,33 +82,34 @@
         <div id="moduleStudyList" class="studyList"></div>
       </section>
 
-      <!-- Test Sub-Panel -->
+      <!-- Test -->
       <section id="moduleTest" class="moduleSubPanel">
-        <div id="moduleTestMain" class="testMain">
-          <div class="qBox gsap-card">
+        <div id="moduleTestMain" class="testMain gsap-card">
+          <div class="qBox">
             <div class="qHeader">
               <span id="qProgress">Otázka 1/1</span>
             </div>
-            <div id="qCode" class="qCode">???</div>
+            <div id="qCode" class="qCode">MODUL</div>
+            <div id="qPrompt" class="qPrompt">Načítání...</div>
             <div id="optsGrid" class="opts"></div>
             <div class="testActions">
               <button id="btnSkip" class="btnSecondary">Přeskočit</button>
-              <button id="btnNext" class="btnPrimary" style="display:none">Další</button>
+              <button id="btnNext" class="btnPrimary" style="display:none">Další ›</button>
             </div>
           </div>
         </div>
         <div id="moduleTestResults" class="testResults">
           <div class="resCard gsap-card">
-            <div id="resGrade" class="resGrade">Skvěle</div>
+            <div id="resGrade" class="resGrade">Skvěle!</div>
             <div id="resScore" class="resScore">0 / 0</div>
-            <button id="btnRestart" class="btnPrimary" style="margin-top:20px; width:100%;">Nová simulace</button>
+            <button id="btnRestart" class="btnPrimary" style="margin-top:24px; width:100%;">↩ Nová simulace</button>
           </div>
         </div>
         <div id="moduleSource" class="moduleSource"></div>
       </section>
     </main>
 
-    <!-- Global Analysis (Legacy but updated) -->
+    <!-- ANALYSIS -->
     <main id="panelAnalysis" class="panel">
       <div class="viewHeader gsap-card">
         <button class="btnBack" onclick="goBack('dashboard')">← Zpět</button>
@@ -117,12 +118,15 @@
       <div id="analysisBody"></div>
     </main>
 
-    <footer class="footer">
-      <div class="fDot"></div>
-      <span>LSPD MODULAR TRAINING</span>
-      <span class="tag">v2.0.0</span>
-    </footer>
-  </div>
+  </div><!-- /.container -->
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="fDot"></div>
+    <span>LEO &amp; PRÁVNÍ PŘÍRUČKA — VALTOR</span>
+    <div class="fDot"></div>
+    <a href="https://discord.gg/bTYE3TsExj" target="_blank" rel="noopener">Discord ↗</a>
+  </footer>
 
   <script src="app.js"></script>
 </body>

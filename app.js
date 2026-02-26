@@ -1,57 +1,56 @@
 (() => {
   "use strict";
 
-  // ========= DATA (MODULAR) =========
-  const trainingData = {
-    "ZÁKLADNÍ KÓDY": {
-      "10-Kódy": [
-        ["10-0", "Vizuální kontakt ztracen"], ["10-1", "Změňte frekvenci"], ["10-3", "Ticho na vysílačce"], ["10-4", "Ok, rozumím"], ["10-5", "Přestávka"], ["10-6", "Zaneprázdněný"], ["10-7", "Mimo službu"], ["10-8", "Ve službě"], ["10-9", "Opakujte hlášení"], ["10-10", "Napadení"], ["10-11", "Traffic stop"], ["10-12", "Samostatná jízda"], ["10-13", "Střelba"], ["10-14", "Prodej drog"], ["10-15", "Převáží vězně"], ["10-16", "Krádež vozidla"], ["10-17", "Podezřelá osoba"], ["10-18", "Trespassing"], ["10-20", "Lokace"], ["10-22", "Ignorujte"], ["10-23", "Dorazil"], ["10-27", "Kontrola řidičáku"], ["10-28", "Kontrola SPZ"], ["10-29", "Hledaná osoba?"], ["10-30", "Hledaná osoba!"], ["10-32", "Asistence"], ["10-35", "Rozpustit perimetr"], ["10-41", "Zahájit patrolu"], ["10-42", "Ukončit patrolu"], ["10-44", "Osoba zemřela"], ["10-50", "Nehoda"], ["10-51", "Odtah"], ["10-52", "Záchranka"], ["10-60", "Únos"], ["10-66", "Bezohledný řidič"], ["10-68", "Loupež"], ["10-70", "Pěší honička"], ["10-80", "Ujíždění"], ["10-90", "Vykrádání ATM"], ["10-95", "Zadržen"], ["10-99", "Officer v tísni"]
-      ],
-      "Kódové stavy": [
-        ["Kód-1", "Bez majáků"], ["Kód-2", "Majáky"], ["Kód-3", "Majáky a sirény"], ["Kód-4", "Pod kontrolou"], ["Kód-5", "Felony stop"], ["Kód-6", "Vyšetřování"], ["Kód-7", "Vyhnout se scéně"], ["Kód-12", "Falešný poplach"]
-      ]
-    },
-    "MEDICAL MATERIÁLY": {
-      "ems-příručka": [
-        ["ZÁKLADNÍ POSTUPY", "Základní kroky: kontrola dechu, tepu, zastavení krvácení.\n\nZdroj: Discord LEO & PRÁVNÍ PŘÍRUČKA (Valtor) - https://discord.gg/JaSEDd5N6E"],
-        ["TRIÁŽ", "Priorita: Červená (urgentní), Žlutá (vážná), Zelená (lehká), Černá (mrtvý).\n\nZdroj: Discord LEO & PRÁVNÍ PŘÍRUČKA (Valtor) - https://discord.gg/JaSEDd5N6E"],
-        ["VÝSLECH PACIENTA", "SAMPLE (Signs, Allergies, Medications, Past history, Last meal, Events).\n\nZdroj: Discord LEO & PRÁVNÍ PŘÍRUČKA (Valtor) - https://discord.gg/JaSEDd5N6E"]
-      ],
-      "medic-bag": [
-        ["STETOSKOP", "Diagnostika a měření srdečního tepu.\n\nZdroj: Discord LEO & PRÁVNÍ PŘÍRUČKA (Valtor) - https://discord.gg/JaSEDd5N6E"],
-        ["AMBU VAK", "Ruční křísicí přístroj pro ventilaci.\n\nZdroj: Discord LEO & PRÁVNÍ PŘÍRUČKA (Valtor) - https://discord.gg/JaSEDd5N6E"],
-        ["GUEDEL", "Ústní vzduchovody pro průchodnost dýchacích cest.\n\nZdroj: Discord LEO & PRÁVNÍ PŘÍRUČKA (Valtor) - https://discord.gg/JaSEDd5N6E"],
-        ["TERMOMETR", "Měření tělesné teploty.\n\nZdroj: Discord LEO & PRÁVNÍ PŘÍRUČKA (Valtor) - https://discord.gg/JaSEDd5N6E"]
-      ]
-    },
-    "PRÁVNÍ MATERIÁLY": {
-      "Ústava & Dodatky": [
-        ["1. DODATEK", "Svoboda projevu, náboženství, tisku, shromažďování.\n\nZdroj: Discord LEO & PRÁVNÍ PŘÍRUČKA (Valtor) - https://discord.gg/JaSEDd5N6E"],
-        ["4. DODATEK", "Ochrana před neodůvodněnou prohlídkou (warrant).\n\nZdroj: Discord LEO & PRÁVNÍ PŘÍRUČKA (Valtor) - https://discord.gg/JaSEDd5N6E"],
-        ["5. DODATEK", "Právo nevypovídat, řádný proces.\n\nZdroj: Discord LEO & PRÁVNÍ PŘÍRUČKA (Valtor) - https://discord.gg/JaSEDd5N6E"],
-        ["14. DODATEK", "Rovná ochrana a Due Process.\n\nZdroj: Discord LEO & PRÁVNÍ PŘÍRUČKA (Valtor) - https://discord.gg/JaSEDd5N6E"]
-      ],
-      "Práva & Miranda": [
-        ["MIRANDA RIGHTS", "Právo nevypovídat, právo na advokáta.\n\nZdroj: Discord LEO & PRÁVNÍ PŘÍRUČKA (Valtor) - https://discord.gg/JaSEDd5N6E"],
-        ["PRÁVA ADVOKÁTA", "Přístup ke klientovi, znalost statusu, přítomnost u výslechu.\n\nZdroj: Discord LEO & PRÁVNÍ PŘÍRUČKA (Valtor) - https://discord.gg/JaSEDd5N6E"]
-      ]
-    },
-    "TYPY ZASTAVENÍ": {
-      "Pursuit & PIT": [
-        ["PIT MANEUVER", "Vyvedení vozidla z rovnováhy (do 35-40 mph).\n\nZdroj: Discord LEO & PRÁVNÍ PŘÍRUČKA (Valtor) - https://discord.gg/JaSEDd5N6E"],
-        ["BOX MANEUVER", "Zablokování vozidla 1-3 jednotkami.\n\nZdroj: Discord LEO & PRÁVNÍ PŘÍRUČKA (Valtor) - https://discord.gg/JaSEDd5N6E"]
-      ],
-      "Traffic & Felony": [
-        ["TRAFFIC STOP", "Dočasné zadržení řidiče za účelem vyšetřování.\n\nZdroj: Discord LEO & PRÁVNÍ PŘÍRUČKA (Valtor) - https://discord.gg/JaSEDd5N6E"],
-        ["FELONY STOP", "Vysoké riziko, důstojníci za krytem, megafon.\n\nZdroj: Discord LEO & PRÁVNÍ PŘÍRUČKA (Valtor) - https://discord.gg/JaSEDd5N6E"]
-      ]
-    }
-  };
+  // ═══════════════════════════════════════════════════════════
+  //  DATA LAYER
+  // ═══════════════════════════════════════════════════════════
+  let trainingData = {};   // { category: { title: [messages] } }
 
-  const $ = (id) => document.getElementById(id);
-  const now = () => Date.now();
-  const shuffle = (arr) => {
-    let a = arr.slice();
+  // Text is "usable" for testing when it has real content (not empty / image-only)
+  function isUsableText(str) {
+    if (!str) return false;
+    const s = str.trim();
+    if (s === "" || s === "xxx" || s === "[Příloha]") return false;
+    if (s.length < 6) return false;
+    return true;
+  }
+
+  // Truncate text for display
+  function truncate(str, max = 220) {
+    return str.length > max ? str.substring(0, max).trimEnd() + "…" : str;
+  }
+
+  async function loadData() {
+    try {
+      const response = await fetch("data.json");
+      const rawData = await response.json();
+
+      trainingData = {};
+      rawData.forEach(item => {
+        if (!trainingData[item.category]) trainingData[item.category] = {};
+        // Keep all messages for Study view (including images), but tag testable ones
+        trainingData[item.category][item.title] = item.messages;
+      });
+
+      renderDashboard();
+    } catch (err) {
+      console.error("Nepodařilo se načíst data.json:", err);
+      document.getElementById("categoryGrid").innerHTML =
+        '<p style="color:#ef4444;padding:24px">❌ Chyba: nepodařilo se načíst data.json. Otevřete přes lokální server.</p>';
+    }
+  }
+
+  // Returns only text-usable messages for a module
+  function getTestableItems(messages) {
+    return messages.filter(m => isUsableText(m.content));
+  }
+
+  // ═══════════════════════════════════════════════════════════
+  //  UTILITIES
+  // ═══════════════════════════════════════════════════════════
+  const $ = id => document.getElementById(id);
+  const shuffle = arr => {
+    const a = arr.slice();
     for (let i = a.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [a[i], a[j]] = [a[j], a[i]];
@@ -59,67 +58,85 @@
     return a;
   };
 
-  // ========= STATE =========
+  // ═══════════════════════════════════════════════════════════
+  //  STATE
+  // ═══════════════════════════════════════════════════════════
   let activeCategory = null;
   let activeModule = null;
-  let activeModuleData = [];
+  let activeModuleData = [];       // all messages
+  let activeTestItems = [];       // text-only messages for testing
   let currentPanel = $("panelDashboard");
 
-  const LS_VERSION = "_v9_final";
-  const loadObj = (k) => { try { return JSON.parse(localStorage.getItem(k + LS_VERSION)) || {}; } catch { return {}; } };
+  const LS_VERSION = "_v10";
+  const loadObj = k => { try { return JSON.parse(localStorage.getItem(k + LS_VERSION)) || {}; } catch { return {}; } };
   const saveObj = (k, v) => localStorage.setItem(k + LS_VERSION, JSON.stringify(v));
 
-  const masteryMap = loadObj("mastery");
   const statsMap = loadObj("stats");
 
   function getStats(modId, itemId) {
-    const key = `${modId}_${itemId}`;
+    const key = `${modId}::${itemId}`;
     if (!statsMap[key]) statsMap[key] = { correct: 0, wrong: 0, total: 0 };
     return statsMap[key];
   }
 
-  // ========= NAVIGATION =========
-  function show(panelId) {
+  // ═══════════════════════════════════════════════════════════
+  //  NAVIGATION
+  // ═══════════════════════════════════════════════════════════
+  window.show = (panelId) => {
     const next = $(panelId);
     if (!next || next === currentPanel) return;
     const out = currentPanel;
     currentPanel = next;
 
-    if (panelId === "panelDashboard") {
-      activeCategory = null; activeModule = null;
-    }
+    if (panelId === "panelDashboard") { activeCategory = null; activeModule = null; }
     if (panelId === "panelAnalysis") renderAnalysis();
+
+    // Update tab active state
+    $("btnGoHome").classList.toggle("active", panelId === "panelDashboard");
+    $("btnGoAnalysis").classList.toggle("active", panelId === "panelAnalysis");
 
     const gs = window.gsap;
     if (gs) {
       gs.to(out, {
-        opacity: 0, y: 15, duration: 0.15, onComplete: () => {
+        opacity: 0, y: 12, duration: 0.15, onComplete: () => {
           out.classList.remove("active");
           next.classList.add("active");
-          gs.fromTo(next, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.25 });
+          gs.fromTo(next, { opacity: 0, y: 18 }, { opacity: 1, y: 0, duration: 0.22 });
           const cards = next.querySelectorAll(".gsap-card");
-          if (cards.length) gs.fromTo(cards, { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.2, stagger: 0.05 });
+          if (cards.length) gs.fromTo(cards, { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.18, stagger: 0.04 });
         }
       });
     } else {
       out.classList.remove("active");
       next.classList.add("active");
     }
-  }
+  };
 
-  window.goBack = (where) => {
+  window.goBack = where => {
     if (where === "dashboard") show("panelDashboard");
     else if (where === "category") show("panelCategory");
   };
 
-  // ========= RENDERERS =========
+  window.showModuleTab = tab => {
+    document.querySelectorAll(".wTab").forEach(t => t.classList.remove("active"));
+    document.querySelectorAll(".moduleSubPanel").forEach(p => p.classList.remove("active"));
+    $(`tabModule${tab[0].toUpperCase()}${tab.slice(1)}`).classList.add("active");
+    $(`module${tab[0].toUpperCase()}${tab.slice(1)}`).classList.add("active");
+    if (tab === "test") startModuleTest();
+  };
+
+  // ═══════════════════════════════════════════════════════════
+  //  RENDERERS — DASHBOARD & CATEGORY
+  // ═══════════════════════════════════════════════════════════
   function renderDashboard() {
     const grid = $("categoryGrid");
     grid.innerHTML = "";
+    const icons = { "CRIMINAL MATERIÁLY": "🔴", "MEDICAL MATERIÁLY": "🏥", "PRÁVNÍ MATERIÁLY": "⚖️", "TYPY ZASTAVENÍ": "🚔", "ZÁKLADNÍ KÓDY": "📡" };
     Object.keys(trainingData).forEach(cat => {
+      const count = Object.keys(trainingData[cat]).length;
       const card = document.createElement("div");
       card.className = "catCard gsap-card";
-      card.innerHTML = `<span class="catIcon">📁</span><h3>${cat}</h3><span>${Object.keys(trainingData[cat]).length} Modulů</span>`;
+      card.innerHTML = `<span class="catIcon">${icons[cat] || "📁"}</span><h3>${cat}</h3><span>${count} Modulů</span>`;
       card.onclick = () => openCategory(cat);
       grid.appendChild(card);
     });
@@ -131,9 +148,11 @@
     const grid = $("moduleGrid");
     grid.innerHTML = "";
     Object.keys(trainingData[cat]).forEach(mod => {
+      const msgs = trainingData[cat][mod];
+      const testable = getTestableItems(msgs);
       const card = document.createElement("div");
       card.className = "modCard gsap-card";
-      card.innerHTML = `<span class="modIcon">📜</span><h3>${mod}</h3><span>${trainingData[cat][mod].length} Položek</span>`;
+      card.innerHTML = `<span class="modIcon">📜</span><h3>${mod}</h3><span>${msgs.length} Zpráv · ${testable.length} testovatelné</span>`;
       card.onclick = () => openModule(mod);
       grid.appendChild(card);
     });
@@ -143,6 +162,7 @@
   function openModule(mod) {
     activeModule = mod;
     activeModuleData = trainingData[activeCategory][mod];
+    activeTestItems = getTestableItems(activeModuleData);
     $("moduleTitle").textContent = mod;
     showModuleTab("study");
     renderModuleStudy();
@@ -150,23 +170,19 @@
     show("panelWorkspace");
   }
 
-  window.showModuleTab = (tab) => {
-    document.querySelectorAll(".wTab").forEach(t => t.classList.remove("active"));
-    document.querySelectorAll(".moduleSubPanel").forEach(p => p.classList.remove("active"));
-    $(`tabModule${tab.charAt(0).toUpperCase() + tab.slice(1)}`).classList.add("active");
-    $(`module${tab.charAt(0).toUpperCase() + tab.slice(1)}`).classList.add("active");
-    if (tab === "test") startModuleTest();
-  };
-
+  // ═══════════════════════════════════════════════════════════
+  //  STUDY VIEW
+  // ═══════════════════════════════════════════════════════════
   function buildModuleHeatmap() {
     const grid = $("moduleHeatmap");
     grid.innerHTML = "";
-    activeModuleData.forEach((item) => {
-      const s = getStats(activeModule, item[0]);
-      const rate = s.total > 0 ? (s.wrong / s.total) : 0;
+    activeTestItems.forEach((item, i) => {
+      const s = getStats(activeModule, i);
+      const rate = s.total > 0 ? s.wrong / s.total : -1;
       const pill = document.createElement("div");
       pill.className = "hpill";
-      pill.style.background = rate >= 0.7 ? "#ef4444" : rate >= 0.4 ? "#f59e0b" : rate > 0 ? "#10b981" : "rgba(255,255,255,0.05)";
+      pill.style.background = rate < 0 ? "rgba(255,255,255,0.05)" : rate >= 0.6 ? "#ef4444" : rate >= 0.35 ? "#f59e0b" : "#22c55e";
+      pill.title = truncate(item.content, 60);
       grid.appendChild(pill);
     });
   }
@@ -175,172 +191,248 @@
     const list = $("moduleStudyList");
     list.innerHTML = "";
     activeModuleData.forEach(item => {
-      const [code, meaning] = item;
       const row = document.createElement("div");
       row.className = "row gsap-card";
-      row.innerHTML = `
-        <div class="rowMain">
-          <div class="codeCol"><span class="codeTag">${code}</span></div>
-          <div class="meaningCol"><span class="hidden-meaning">${meaning.replace(/\n/g, '<br>')}</span></div>
-        </div>
-      `;
+
+      // Only show author label — no timestamps in UI to keep it clean
+      let headerHtml = `<div class="msgHeader"><span class="msgAuthor">LSPD MATERIÁLY</span></div>`;
+
+      let contentHtml = "";
+      if (item.content && item.content.trim()) {
+        contentHtml = `<span class="hidden-meaning">${item.content.replace(/\n/g, "<br>")}</span>`;
+      }
+
+      let attachmentsHtml = "";
+      if (item.attachments && item.attachments.length > 0) {
+        attachmentsHtml = `<div class="attachments">${item.attachments.map(url =>
+          `<img src="${url}" class="studyImg" loading="lazy" onclick="window.open('${url}')">`
+        ).join("")}</div>`;
+      }
+
+      if (!contentHtml && !attachmentsHtml) return; // skip fully empty rows
+
+      row.innerHTML = `${headerHtml}<div class="meaningCol">${contentHtml}${attachmentsHtml}</div>`;
       list.appendChild(row);
     });
   }
 
-  // ========= TEST LOGIC =========
+  // ═══════════════════════════════════════════════════════════
+  //  TEST LOGIC
+  // ═══════════════════════════════════════════════════════════
   let testIdx = 0, testScore = 0, testQueue = [];
+
   function startModuleTest() {
-    testQueue = shuffle(activeModuleData.map(x => x[0]));
-    testIdx = 0; testScore = 0;
+    if (activeTestItems.length < 2) {
+      $("moduleTestMain").innerHTML = `
+        <div style="text-align:center;padding:40px;color:var(--text-dim)">
+          <div style="font-size:36px;margin-bottom:12px">📎</div>
+          <p>Tento modul obsahuje pouze obrázky a nemá dostatek textového obsahu pro testování.</p>
+        </div>`;
+      return;
+    }
+    // Reset DOM
+    $("moduleTestMain").innerHTML = `
+      <div class="qBox">
+        <div class="qHeader"><span id="qProgress">Otázka 1/${activeTestItems.length}</span></div>
+        <div id="qCode" class="qCode">${activeModule.toUpperCase()}</div>
+        <div id="qPrompt" class="qPrompt">Načítání...</div>
+        <div id="optsGrid" class="opts"></div>
+        <div class="testActions">
+          <button id="btnSkip" class="btnSecondary">Přeskočit</button>
+          <button id="btnNext" class="btnPrimary" style="display:none">Další ›</button>
+        </div>
+      </div>`;
     $("moduleTestResults").classList.remove("active");
     $("moduleTestMain").classList.add("active");
+
+    // re-bind buttons
+    $("btnNext").onclick = () => { testIdx++; nextQuestion(); };
+    $("btnSkip").onclick = () => { testIdx++; nextQuestion(); };
+
+    testQueue = shuffle(activeTestItems.map((_, i) => i));
+    testIdx = 0; testScore = 0;
     nextQuestion();
   }
 
   function nextQuestion() {
     if (testIdx >= testQueue.length) return endModuleTest();
-    const code = testQueue[testIdx];
-    const correctFull = activeModuleData.find(x => x[0] === code)[1];
 
-    // STRICT SOURCE CLEANUP
-    const correctClean = correctFull.split("\n\nZdroj:")[0].trim();
+    const idx = testQueue[testIdx];
+    const correct = activeTestItems[idx];
+    const correctText = correct.content.trim();
 
-    $("qCode").textContent = code;
     $("qProgress").textContent = `Otázka ${testIdx + 1} / ${testQueue.length}`;
+    $("qCode").textContent = activeModule.toUpperCase();
 
-    // Clean all meanings for distractors
-    const allCleanMeanings = activeModuleData.map(x => x[1].split("\n\nZdroj:")[0].trim());
-    let dists = shuffle(allCleanMeanings.filter(m => m !== correctClean)).slice(0, 3);
-    const opts = shuffle([correctClean, ...dists]);
+    // Show first line as a "topic hint", full text in options
+    const lines = correctText.split("\n").filter(l => l.trim());
+    const hint = lines.length > 1 ? lines[0].trim() : "Vyber správnou odpověď:";
+    const full = correctText;
+
+    $("qPrompt").textContent = hint;
+
+    // Collect distractors — text from other testable items
+    let pool = activeTestItems
+      .filter((_, i) => i !== idx)
+      .map(m => m.content.trim())
+      .filter(t => t !== correctText);
+
+    // If not enough, draw from other modules in same category
+    if (pool.length < 3) {
+      Object.keys(trainingData[activeCategory]).forEach(mod => {
+        if (mod !== activeModule) {
+          getTestableItems(trainingData[activeCategory][mod]).forEach(m => {
+            if (m.content.trim() !== correctText) pool.push(m.content.trim());
+          });
+        }
+      });
+    }
+
+    const dists = shuffle([...new Set(pool)]).slice(0, 3);
+    const opts = shuffle([full, ...dists]);
 
     $("optsGrid").innerHTML = "";
     opts.forEach(o => {
       const b = document.createElement("button");
       b.className = "optBtn";
-      b.textContent = o;
+      b.textContent = truncate(o, 200);
       b.onclick = () => {
-        const s = getStats(activeModule, code);
+        const s = getStats(activeModule, idx);
         s.total++;
-        if (o === correctClean) {
-          s.correct++; testScore++; b.classList.add("correct");
+        if (o === full) {
+          s.correct++; testScore++;
+          b.classList.add("correct");
         } else {
-          s.wrong++; b.classList.add("wrong");
+          s.wrong++;
+          b.classList.add("wrong");
           [...$("optsGrid").children].forEach(btn => {
-            if (btn.textContent === correctClean) btn.classList.add("correct");
+            if (btn.textContent === truncate(full, 200)) btn.classList.add("correct");
           });
         }
         saveObj("stats", statsMap);
         [...$("optsGrid").children].forEach(btn => btn.disabled = true);
         $("btnNext").style.display = "block";
-
-        // MOVE SOURCE TO FOOTER ONLY
-        const sourceText = correctFull.includes("Zdroj:") ? correctFull.split("Zdroj:")[1].trim() : "";
-        $("moduleSource").innerHTML = sourceText ? `<div class="fSource"><b>Zdroj:</b> ${sourceText}</div>` : "";
+        buildModuleHeatmap();
       };
       $("optsGrid").appendChild(b);
     });
+
     $("btnNext").style.display = "none";
     $("moduleSource").innerHTML = "";
   }
 
-  $("btnNext").onclick = () => { testIdx++; nextQuestion(); };
-  $("btnSkip").onclick = () => { testIdx++; nextQuestion(); };
-  $("btnRestart").onclick = startModuleTest;
-
   function endModuleTest() {
     $("moduleTestMain").classList.remove("active");
     $("moduleTestResults").classList.add("active");
+    const pct = Math.round((testScore / testQueue.length) * 100);
+    const grade = pct >= 90 ? "🏆 Výborně!" : pct >= 70 ? "✅ Splněno!" : pct >= 50 ? "⚡ Slabé" : "❌ Selhání";
+    $("resGrade").textContent = grade;
     $("resScore").textContent = `${testScore} / ${testQueue.length}`;
+    $("btnRestart").onclick = startModuleTest;
     buildModuleHeatmap();
   }
 
-  // ========= ANALYSIS (GLOBAL) =========
+  // ═══════════════════════════════════════════════════════════
+  //  ANALYSIS
+  // ═══════════════════════════════════════════════════════════
   function renderAnalysis() {
     const body = $("analysisBody");
     if (!body) return;
 
-    let totalItems = 0;
-    let masteredCount = 0;
-    let failedCount = 0;
-    const categoryStats = [];
+    let totalItems = 0, masteredCount = 0, failedCount = 0;
+    const catStats = [];
 
-    Object.keys(trainingData).forEach(catName => {
-      let catTotalScore = 0;
-      let catTotalQuestions = 0;
+    Object.keys(trainingData).forEach(cat => {
+      let catCorrect = 0, catTotal = 0;
 
-      Object.keys(trainingData[catName]).forEach(modId => {
-        trainingData[catName][modId].forEach(item => {
+      Object.keys(trainingData[cat]).forEach(mod => {
+        const items = getTestableItems(trainingData[cat][mod]);
+        items.forEach((_, i) => {
           totalItems++;
-          const stats = getStats(modId, item[0]);
-          catTotalQuestions += stats.total;
-          catTotalScore += stats.correct;
-          const rate = stats.total > 0 ? (stats.wrong / stats.total) : 0;
-          if (rate >= 0.5 && stats.total > 0) failedCount++;
-          else if (stats.correct > 2 && rate < 0.2) masteredCount++;
+          const s = getStats(mod, i);
+          catTotal += s.total;
+          catCorrect += s.correct;
+          const rate = s.total > 0 ? s.wrong / s.total : -1;
+          if (rate >= 0.5 && s.total > 0) failedCount++;
+          else if (s.correct >= 2 && rate < 0.2 && s.total > 0) masteredCount++;
         });
       });
 
-      categoryStats.push({
-        name: catName,
-        accuracy: catTotalQuestions > 0 ? Math.round((catTotalScore / catTotalQuestions) * 100) : 0
+      catStats.push({
+        name: cat,
+        accuracy: catTotal > 0 ? Math.round((catCorrect / catTotal) * 100) : 0,
+        total: catTotal
       });
     });
 
     const neutralCount = totalItems - masteredCount - failedCount;
+    const okDeg = totalItems > 0 ? Math.round((masteredCount / totalItems) * 360) : 0;
 
     body.innerHTML = `
       <div class="analysisGrid">
-        <div class="resCard gsap-card">
-          <div class="analysisSectionTitle">Stav znalostí (Globální)</div>
+        <div class="gsap-card">
+          <div class="analysisSectionTitle">Stav znalostí</div>
           <div class="masteryGroup">
-            <div class="masteryDonutWrap"><div class="donut" style="--okDeg:${Math.round((masteredCount / totalItems) * 360)}deg;"><div class="donutCenter"><div class="donutLabel">UMÍ</div><div class="donutValue">${masteredCount}</div></div></div></div>
-            <div class="masteryDonutWrap"><div class="donut" style="background:#ef4444; --okDeg:0deg;"><div class="donutCenter"><div class="donutLabel">NEUMÍ</div><div class="donutValue">${failedCount}</div></div></div></div>
-            <div class="masteryDonutWrap"><div class="donut" style="background:rgba(255,255,255,0.05); --okDeg:0deg;"><div class="donutCenter"><div class="donutLabel">NEZNÁM</div><div class="donutValue">${neutralCount}</div></div></div></div>
-          </div>
-        </div>
-        <div class="resCard gsap-card">
-          <div class="analysisSectionTitle">Úspěšnost dle kategorií</div>
-          <div class="catBars">
-            ${categoryStats.map(c => `
-              <div class="barRow">
-                <div class="barLabel">${c.name}</div>
-                <div class="barTrack"><div class="barFill" style="width:${c.accuracy}%"></div></div>
-                <div class="barValue">${c.accuracy}%</div>
+            <div class="masteryDonutWrap">
+              <div class="donut" style="--okDeg:${okDeg}deg;">
+                <div class="donutCenter"><div class="donutValue" style="color:var(--ok)">${masteredCount}</div><div class="donutLabel">Umí</div></div>
               </div>
-            `).join("")}
+            </div>
+            <div class="masteryDonutWrap">
+              <div class="donut" style="background:conic-gradient(#ef4444 0deg ${Math.round((failedCount / totalItems) * 360)}deg, rgba(255,255,255,0.07) 0deg);">
+                <div class="donutCenter"><div class="donutValue" style="color:var(--bad)">${failedCount}</div><div class="donutLabel">Neumí</div></div>
+              </div>
+            </div>
+            <div class="masteryDonutWrap">
+              <div class="donut" style="background:rgba(255,255,255,0.05);">
+                <div class="donutCenter"><div class="donutValue">${neutralCount}</div><div class="donutLabel">Nezná</div></div>
+              </div>
+            </div>
           </div>
+          <p style="text-align:center;color:var(--muted);font-size:12px;margin-top:16px;">${totalItems} celkem testovatelných položek</p>
+        </div>
+
+        <div class="gsap-card">
+          <div class="analysisSectionTitle">Úspěšnost dle kategorií</div>
+          ${catStats.map(c => `
+            <div class="barRow">
+              <div class="barLabel" title="${c.name}">${c.name}</div>
+              <div class="barTrack"><div class="barFill" style="width:${c.accuracy}%"></div></div>
+              <div class="barValue">${c.accuracy > 0 ? c.accuracy + "%" : "—"}</div>
+            </div>
+          `).join("")}
         </div>
       </div>
-      <div class="analysisFullRow resCard gsap-card">
-        <div class="analysisSectionTitle">Globální Heatmapa (Všechny moduly)</div>
-        <div id="globalHeatGrid" class="moduleHeatGrid" style="margin-top:15px; gap:6px;"></div>
+
+      <div class="analysisFullRow gsap-card">
+        <div class="analysisSectionTitle">Heatmapa — všechny moduly</div>
+        <div id="globalHeatGrid" style="display:flex;flex-wrap:wrap;gap:4px;margin-top:10px;"></div>
       </div>
     `;
 
     const globalHeat = $("globalHeatGrid");
     Object.keys(trainingData).forEach(cat => {
       Object.keys(trainingData[cat]).forEach(mod => {
-        trainingData[cat][mod].forEach(item => {
-          const s = getStats(mod, item[0]);
-          const rate = s.total > 0 ? (s.wrong / s.total) : 0;
+        getTestableItems(trainingData[cat][mod]).forEach((item, i) => {
+          const s = getStats(mod, i);
+          const rate = s.total > 0 ? s.wrong / s.total : -1;
           const pill = document.createElement("div");
           pill.className = "hpill";
-          pill.title = `${mod}: ${item[0]}`;
-          pill.style.width = "12px"; pill.style.height = "12px";
-          pill.style.background = rate >= 0.7 ? "#ef4444" : rate >= 0.4 ? "#f59e0b" : rate > 0 ? "#10b981" : "rgba(255,255,255,0.05)";
+          pill.title = `${mod}: ${truncate(item.content, 50)}`;
+          pill.style.cssText = `width:12px;height:12px;background:${rate < 0 ? "rgba(255,255,255,0.05)" : rate >= 0.6 ? "#ef4444" : rate >= 0.35 ? "#f59e0b" : "#22c55e"}`;
           globalHeat.appendChild(pill);
         });
       });
     });
   }
 
-  // Search
-  $("moduleSearch").oninput = (e) => {
+  // ═══════════════════════════════════════════════════════════
+  //  MISC HANDLERS
+  // ═══════════════════════════════════════════════════════════
+  $("moduleSearch").oninput = e => {
     const q = e.target.value.toLowerCase();
     document.querySelectorAll("#moduleStudyList .row").forEach(row => {
-      const txt = row.textContent.toLowerCase();
-      row.style.display = txt.includes(q) ? "" : "none";
+      row.style.display = row.textContent.toLowerCase().includes(q) ? "" : "none";
     });
   };
 
@@ -349,11 +441,17 @@
     revealed = !revealed;
     document.querySelectorAll(".hidden-meaning").forEach(m => m.classList.toggle("visible", revealed));
     $("btnModuleReveal").textContent = revealed ? "🙈 Skrýt" : "👁 Odhalit vše";
+    $("btnModuleReveal").classList.toggle("revealed", revealed);
   };
 
-  // Global reset
-  $("btnResetAll").onclick = () => { if (confirm("Resetovat veškerý postup?")) { localStorage.clear(); location.reload(); } };
+  $("btnResetAll").onclick = () => {
+    if (confirm("Resetovat veškerý postup? Tato akce je nevratná.")) {
+      localStorage.clear(); location.reload();
+    }
+  };
 
-  window.onload = renderDashboard;
-
+  // ═══════════════════════════════════════════════════════════
+  //  BOOT
+  // ═══════════════════════════════════════════════════════════
+  window.onload = loadData;
 })();
